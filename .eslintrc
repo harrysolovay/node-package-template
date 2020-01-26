@@ -33,6 +33,9 @@
     "security",
     "unicorn",
     "no-null",
+    "sort-keys-fix",
+    "sort-destructure-keys",
+    "sort-class-members",
     "tsdoc"
   ],
   "root": true,
@@ -44,7 +47,24 @@
     "import/order": "off",
     "no-null/no-null": "error",
     "simple-import-sort/sort": "error",
+    "sort-class-members/sort-class-members": [
+      "error",
+      {
+        "accessorPairPositioning": "getThenSet",
+        "order": [
+          "[static-properties]",
+          "[static-methods]",
+          "[properties]",
+          "[conventional-private-properties]",
+          "constructor",
+          "[methods]",
+          "[conventional-private-methods]"
+        ]
+      }
+    ],
+    "sort-destructure-keys/sort-destructure-keys": "error",
     "sort-imports": "off",
-    "tsdoc/syntax": "warn"
+    "sort-keys-fix/sort-keys-fix": "error",
+    "tsdoc/syntax": "error"
   }
 }
