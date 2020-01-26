@@ -68,6 +68,7 @@
     "sort-keys-fix/sort-keys-fix": "error",
     "tsdoc/syntax": "error",
     "typescript-sort-keys/interface": "error",
-    "typescript-sort-keys/string-enum": "error"
+    "typescript-sort-keys/string-enum": "error",
+    "unicorn/prevent-abbreviations": "off"
   }
 }
