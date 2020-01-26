@@ -31,7 +31,6 @@
     "promise",
     "unicorn",
     "no-null",
-    "simple-import-sort",
     "sort-keys-fix",
     "sort-destructure-keys",
     "sort-class-members",
@@ -48,7 +47,6 @@
     "import/order": "off",
     "no-null/no-null": "error",
     "security/detect-non-literal-fs-filename": "off",
-    "simple-import-sort/sort": "error",
     "sort-class-members/sort-class-members": [
       "error",
       {
@@ -65,7 +63,15 @@
       }
     ],
     "sort-destructure-keys/sort-destructure-keys": "error",
-    "sort-imports": "off",
+    "sort-imports": [
+      "error",
+      {
+        "ignoreCase": false,
+        "ignoreDeclarationSort": false,
+        "ignoreMemberSort": false,
+        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
+      }
+    ],
     "sort-keys-fix/sort-keys-fix": "error",
     "tsdoc/syntax": "error",
     "typescript-sort-keys/interface": "error",
