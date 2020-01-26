@@ -2,10 +2,10 @@
   "arrowParens": "always",
   "bracketSpacing": false,
   "jsxBracketSameLine": false,
-  "jsxSingleQuote": true,
+  "jsxSingleQuote": false,
   "proseWrap": "never",
   "semi": true,
-  "singleQuote": true,
+  "singleQuote": false,
   "tabWidth": 2,
   "trailingComma": "all",
   "useTabs": false
