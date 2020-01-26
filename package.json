@@ -1,0 +1,77 @@
+{
+  "name": "node-package-template",
+  "version": "1.0.0",
+  "description": "A living, comprehensive, best-practices template for Node packages",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "url": "https://github.com/harrysolovay/node-project-template.git",
+    "type": "git"
+  },
+  "author": {
+    "name": "Harry Solovay",
+    "email": "harrysolovay@gmail.com",
+    "url": "https://www.harrysolovay.com/"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^13.5.0",
+    "@typescript-eslint/eslint-plugin": "^2.17.0",
+    "@typescript-eslint/parser": "^2.17.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-no-null": "^1.0.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-simple-import-sort": "^5.0.1",
+    "eslint-plugin-tsdoc": "^0.2.1",
+    "eslint-plugin-unicorn": "^15.0.1",
+    "husky": "^4.2.1",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^25.0.0",
+    "ts-node": "^8.6.2"
+  },
+  "jest": {
+    "cache": false,
+    "globals": {
+      "ts-jest": {
+        "diagnostics": true,
+        "tsConfig": "tsconfig.json"
+      }
+    },
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/*.spec.ts"
+    ],
+    "testPathIgnorePatterns": [
+      "node_modules"
+    ],
+    "verbose": false
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint && yarn test",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "scripts": {
+    "lint": "eslint src/**/* -c .eslintrc --fix",
+    "test": "jest"
+  }
+}
