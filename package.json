@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": {
-    "url": "https://github.com/harrysolovay/node-project-template.git",
+    "url": "https://github.com/harrysolovay/node-package-template.git",
     "type": "git"
   },
   "author": {
