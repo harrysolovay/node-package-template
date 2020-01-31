@@ -8,6 +8,15 @@
     "url": "https://github.com/harrysolovay/node-package-template.git",
     "type": "git"
   },
+  "bugs": {
+    "url": "https://github.com/harrysolovay/node-package-template/issues"
+  },
+  "homepage": "https://github.com/harrysolovay/node-package-template#readme",
+  "keywords": [
+    "node",
+    "package",
+    "template"
+  ],
   "author": {
     "name": "Harry Solovay",
     "email": "harrysolovay@gmail.com",
