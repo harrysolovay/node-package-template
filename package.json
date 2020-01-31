@@ -4,6 +4,11 @@
   "description": "A living, comprehensive, best-practices template for Node packages",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "README.md",
+    "changelog"
+  ],
   "repository": {
     "url": "https://github.com/harrysolovay/node-package-template.git",
     "type": "git"
