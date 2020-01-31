@@ -8,7 +8,6 @@
     "alwaysStrict": true,
     "declaration": true,
     "declarationMap": true,
-    "diagnostics": true,
     "downlevelIteration": true,
     "emitDecoratorMetadata": true,
     "esModuleInterop": true,
