@@ -89,6 +89,6 @@
   },
   "scripts": {
     "lint": "eslint src/**/* -c .eslintrc --fix",
-    "test": "jest"
+    "test": "jest --coverage"
   }
 }
