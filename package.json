@@ -29,6 +29,9 @@
   },
   "license": "MIT",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "typescript": "^3.7.5"
   },
@@ -88,7 +91,7 @@
     }
   },
   "scripts": {
-    "lint": "eslint src/**/* -c .eslintrc --fix",
+    "lint": "eslint 'src/**/*' -c .eslintrc --fix",
     "test": "jest --coverage",
     "example": "ts-node src/example"
   }
