@@ -9,7 +9,6 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "incremental": true,
     "lib": ["DOM", "ESNext", "ESNext.AsyncIterable"],
     "module": "CommonJS",
     "noImplicitAny": true,
@@ -29,6 +28,6 @@
     "typeRoots": ["declarations", "node_modules/@types"],
     "useDefineForClassFields": true
   },
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules", "**/*.spec.ts", "src/example"],
   "include": ["src"]
 }
