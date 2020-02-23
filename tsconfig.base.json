@@ -9,22 +9,22 @@
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "lib": ["DOM", "ESNext", "ESNext.AsyncIterable"],
+    "module": "ESNext",
     "moduleResolution": "node",
     "noImplicitAny": true,
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "removeComments": true,
+    "resolveJsonModule": true,
     "sourceMap": true,
     "strict": true,
     "strictBindCallApply": true,
     "strictFunctionTypes": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
-    "target": "ESNext",
     "typeRoots": ["declarations", "node_modules/@types"],
     "useDefineForClassFields": true
   },
-  "exclude": ["node_modules", "**/*.spec.ts", "src/example"],
-  "include": ["src"]
+  "exclude": ["node_modules"]
 }
