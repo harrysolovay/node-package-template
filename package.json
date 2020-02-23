@@ -2,17 +2,7 @@
   "name": "node-package-template",
   "version": "1.0.0",
   "description": "A living, comprehensive, best-practices template for Node packages",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "files": [
-    "lib",
-    "README.md",
-    "changelog"
-  ],
-  "repository": {
-    "url": "https://github.com/harrysolovay/node-package-template.git",
-    "type": "git"
-  },
+  "repository": "github:harrysolovay/node-package-template",
   "bugs": {
     "url": "https://github.com/harrysolovay/node-package-template/issues"
   },
