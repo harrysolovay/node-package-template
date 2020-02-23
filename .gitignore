@@ -50,6 +50,7 @@ dist
 prod
 build
 esm
+pkg
 
 # OS
 $RECYCLE.BIN
