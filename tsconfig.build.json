@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES2020"
+  },
+  "exclude": ["**/*.spec.ts", "**/tests/**/*"],
+  "extends": "./tsconfig.base.json",
+  "include": ["src"]
+}
