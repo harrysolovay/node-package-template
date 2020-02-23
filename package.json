@@ -91,7 +91,7 @@
     }
   },
   "scripts": {
-    "lint": "eslint 'src/**/*' -c .eslintrc --fix",
+    "lint": "eslint '{example,src}/**/*' -c .eslintrc --fix",
     "test": "jest --coverage",
     "example": "ts-node src/example"
   }
