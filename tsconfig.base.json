@@ -23,6 +23,7 @@
     "strictFunctionTypes": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
+    "target": "ES2020",
     "typeRoots": ["declarations", "node_modules/@types"],
     "useDefineForClassFields": true
   },
