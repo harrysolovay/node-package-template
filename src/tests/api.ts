@@ -1,6 +1,6 @@
-import {api} from ".";
+import {api} from "..";
 
-describe("test block 1", () => {
+describe("test block 2", () => {
   it("test 1", () => {
     expect.assertions(1);
     expect(api()).toStrictEqual("Hello World");
