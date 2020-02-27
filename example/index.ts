@@ -1,3 +1,3 @@
-import {x} from "../src";
+import {api} from "../src";
 
-console.log(x());
+console.log(api());
