@@ -1,9 +1,8 @@
 ---
 name: Feature Request
 about: "Do you have an idea for new functionality?"
-title: ""
+title: "Feature Request: "
 labels: ""
-assignees: ""
 ---
 
 ## Search Terms

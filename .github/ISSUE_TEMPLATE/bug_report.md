@@ -1,9 +1,8 @@
 ---
 name: Bug Report
 about: "Is something going wrong?"
-title: ""
+title: "Bug: "
 labels: ""
-assignees: ""
 ---
 
 <!--
