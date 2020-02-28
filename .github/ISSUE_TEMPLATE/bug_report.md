@@ -11,7 +11,7 @@ PLEASE...
 2) make sure that you've searched through previous issues (incase this is to be a duplicate)
 -->
 
-**`node-package-template` Version:** \[version\]
+**`node-package-template` version:** \[version\]
 
 <!-- List of keywords you searched for before creating this issue (so others can find this issue more easily) -->
 
