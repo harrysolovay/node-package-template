@@ -5,5 +5,5 @@ contact_links:
     name: Question
     url: "https://stackoverflow.com/questions/tagged/node-package-template"
   - about: "Please check the FAQ before filing new issues"
-    name: "node-package-template FAQ"
-    url: "https://github.com/harrysolovay/node-package-template/README.md"
+    name: "FAQ"
+    url: "https://github.com/harrysolovay/node-package-template/README.md#FAG"

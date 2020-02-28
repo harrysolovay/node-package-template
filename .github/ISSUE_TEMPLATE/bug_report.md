@@ -1,3 +1,11 @@
+---
+name: Bug Report
+about: "Is something going wrong?"
+title: ""
+labels: ""
+assignees: ""
+---
+
 <!--
 PLEASE...
 1) read through all relevant documentation

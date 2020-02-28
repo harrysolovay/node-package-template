@@ -1,3 +1,11 @@
+---
+name: Feature Request
+about: "Do you have an idea for new functionality?"
+title: ""
+labels: ""
+assignees: ""
+---
+
 ## Search Terms
 
 <!-- List of keywords you searched for before creating this issue (so others can find this issue more easily) -->
