@@ -42,6 +42,7 @@
   "rules": {
     "@typescript-eslint/ban-ts-ignore": "off",
     "@typescript-eslint/explicit-function-return-type": "error",
+    "@typescript-eslint/no-for-in-array": "off",
     "@typescript-eslint/no-unused-vars": "off",
     "@typescript-eslint/unbound-method": 0,
     "arrow-parens": ["error", "always"],
