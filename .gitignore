@@ -51,6 +51,8 @@ prod
 build
 esm
 pkg
+types
+cjs
 
 # OS
 $RECYCLE.BIN

@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "outDir": "types"
+  },
+  "exclude": ["**/*.spec.ts", "**/tests/**/*"],
+  "extends": "./tsconfig.base.json",
+  "include": ["src"]
+}

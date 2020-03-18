@@ -1,6 +1,10 @@
 {
   "name": "node-package-template",
   "license": "MIT",
+  "module": "esm/index.js",
+  "main": "cjs/index.js",
+  "types": "types/index.d.ts",
+  "sideEffects": false,
   "private": false,
   "publishConfig": {
     "access": "public"
@@ -19,10 +23,6 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "@pika/pack": "^0.5.0",
-    "@pika/plugin-build-node": "^0.9.2",
-    "@pika/plugin-simple-bin": "^0.9.2",
-    "@pika/plugin-ts-standard-pkg": "^0.9.2",
     "@semantic-release/changelog": "^5.0.0",
     "@semantic-release/git": "^9.0.0",
     "@types/jest": "^24.9.1",
@@ -46,7 +46,6 @@
     "jest": "^25.1.0",
     "prettier": "^1.19.1",
     "semantic-release": "^17.0.4",
-    "semantic-release-plugin-update-version-in-files": "^1.0.0",
     "ts-jest": "^25.0.0",
     "ts-node": "^8.6.2",
     "typescript": "^3.8.2"
@@ -113,47 +112,18 @@
       ],
       "@semantic-release/github",
       [
-        "@semantic-release/npm",
-        {
-          "pkgRoot": "./pkg"
-        }
-      ],
-      [
-        "semantic-release-plugin-update-version-in-files",
-        {
-          "files": [
-            "pkg/dist-node/index.js",
-            "pkg/dist-src/version.js"
-          ],
-          "placeholder": "SEMANTIC_VERSION_PLACEHOLDER"
-        }
-      ]
-    ]
-  },
-  "@pika/pack": {
-    "pipeline": [
-      [
-        "@pika/plugin-ts-standard-pkg",
-        {
-          "tsconfig": "tsconfig.build.json"
-        }
-      ],
-      [
-        "@pika/plugin-build-node"
-      ],
-      [
-        "@pika/plugin-simple-bin",
-        {
-          "bin": "node-package-template-cli"
-        }
+        "@semantic-release/npm"
       ]
     ]
   },
   "scripts": {
-    "clean": "rm -rf yarn.lock node_modules",
+    "clean": "rm -rf yarn.lock node_modules esm cjs types",
     "lint": "eslint '{example,src}/**/*' -c .eslintrc --fix",
     "test": "rm -rf pkg & jest --coverage",
-    "build": "pika build",
+    "build:esm": "tsc -p tsconfig.esm.json && chmod +x esm/cli.js",
+    "build:cjs": "tsc -p tsconfig.cjs.json && chmod +x cjs/cli.js",
+    "build:types": "tsc -p tsconfig.types.json",
+    "build": "yarn build:esm & yarn build:cjs & yarn build:types",
     "example": "ts-node example"
   }
 }
