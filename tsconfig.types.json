@@ -5,7 +5,7 @@
     "emitDeclarationOnly": true,
     "outDir": "types"
   },
-  "exclude": ["**/*.spec.ts", "**/tests/**/*"],
+  "exclude": ["**/*.spec.ts", "**/tests/**/*", "src/cli.ts"],
   "extends": "./tsconfig.base.json",
   "include": ["src"]
 }

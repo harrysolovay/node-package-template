@@ -4,6 +4,9 @@
   "module": "esm/index.js",
   "main": "cjs/index.js",
   "types": "types/index.d.ts",
+  "bin": {
+    "node-package-template": "cjs/cli.js"
+  },
   "sideEffects": false,
   "private": false,
   "publishConfig": {
@@ -120,7 +123,7 @@
     "clean": "rm -rf yarn.lock node_modules esm cjs types",
     "lint": "eslint '{example,src}/**/*' -c .eslintrc --fix",
     "test": "rm -rf pkg & jest --coverage",
-    "build:esm": "tsc -p tsconfig.esm.json && chmod +x esm/cli.js",
+    "build:esm": "tsc -p tsconfig.esm.json",
     "build:cjs": "tsc -p tsconfig.cjs.json && chmod +x cjs/cli.js",
     "build:types": "tsc -p tsconfig.types.json",
     "build": "yarn build:esm & yarn build:cjs & yarn build:types",
