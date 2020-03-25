@@ -1,9 +1,9 @@
 ---
 blank_issues_enabled: false
 contact_links:
-  - about: "Please ask and answer usage questions on Stack Overflow."
+  - about: "Ask and answer usage questions on Stack Overflow."
     name: Question
     url: "https://stackoverflow.com/questions/tagged/node-package-template"
-  - about: "Please check the FAQ before filing new issues."
+  - about: "Check the FAQ before filing new issues."
     name: "FAQ"
     url: "https://github.com/harrysolovay/node-package-template/README.md#faq"
