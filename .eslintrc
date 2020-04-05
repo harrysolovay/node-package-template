@@ -33,7 +33,6 @@
     "no-null",
     "sort-keys-fix",
     "sort-destructure-keys",
-    "sort-class-members",
     "typescript-sort-keys",
     "jest",
     "tsdoc"
@@ -50,24 +49,10 @@
     "@typescript-eslint/unbound-method": "off",
     "arrow-parens": ["error", "always"],
     "import/order": "off",
+    "no-inner-declarations": "off",
     "no-null/no-null": "error",
     "security/detect-non-literal-fs-filename": "off",
     "security/detect-object-injection": "off",
-    "sort-class-members/sort-class-members": [
-      "error",
-      {
-        "accessorPairPositioning": "getThenSet",
-        "order": [
-          "[static-properties]",
-          "[static-methods]",
-          "[properties]",
-          "[conventional-private-properties]",
-          "constructor",
-          "[methods]",
-          "[conventional-private-methods]"
-        ]
-      }
-    ],
     "sort-destructure-keys/sort-destructure-keys": "error",
     "sort-imports": [
       "error",
@@ -80,7 +65,7 @@
     ],
     "sort-keys-fix/sort-keys-fix": "error",
     "tsdoc/syntax": "error",
-    "typescript-sort-keys/interface": "error",
+    "typescript-sort-keys/interface": "off",
     "typescript-sort-keys/string-enum": "error",
     "unicorn/prevent-abbreviations": "off"
   }
