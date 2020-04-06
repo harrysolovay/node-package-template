@@ -1,6 +1,6 @@
 {
   "name": "node-package-template",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "module": "esm/index.js",
   "main": "cjs/index.js",
   "types": "types/index.d.ts",
