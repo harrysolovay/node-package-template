@@ -34,6 +34,9 @@ jspm_packages
 # optional eslint cache
 .eslintcache
 
+# etc. cache
+.cache
+
 # output of 'npm pack'
 *.tgz
 
@@ -53,6 +56,9 @@ esm
 pkg
 types
 cjs
+.cdk.staging
+cdk.out
+.build
 
 # OS
 $RECYCLE.BIN
