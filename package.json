@@ -16,7 +16,7 @@
   "repository": "github:harrysolovay/node-package-template",
   "bugs": "https://github.com/harrysolovay/node-package-template/issues",
   "homepage": "https://github.com/harrysolovay/node-package-template#readme",
-  "author": "Harry Solovay <harrysolovay@gmail.com> (harrysolovay.com)",
+  "author": "Harry Solovay <harrysolovay@gmail.com>",
   "keywords": [
     "node",
     "package",
