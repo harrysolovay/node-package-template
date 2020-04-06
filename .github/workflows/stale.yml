@@ -1,0 +1,20 @@
+name: "Close Stale"
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          stale-issue-message: "Please follow-up on this issue to avoid its automated closing."
+          stale-issue-label: "no-issue-activity"
+          exempt-issue-label: "to-be-reviewed"
+          stale-pr-message: "Please follow-up on this pull request to avoid its automated closing."
+          stale-pr-label: "no-pr-activity"
+          exempt-pr-label: "to-be-reviewed"
+          days-before-stale: 30
+          days-before-close: 5
