@@ -50,6 +50,7 @@
     "@typescript-eslint/unbound-method": "off",
     "arrow-parens": ["error", "always"],
     "import/order": "off",
+    "jest/lowercase-name": "off",
     "no-inner-declarations": "off",
     "no-null/no-null": "error",
     "security/detect-non-literal-fs-filename": "off",
