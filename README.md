@@ -18,6 +18,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - **Feature B** _Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat._
 - **Feature C** _Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur._
 
+## Resources
+
+- [Getting Started &rarr;](./media)<br />Various media files, like logos etc.
+- [Guides &rarr;](https://docs.assemblyscript.org)<br />Introduction, quick start, examples and general usage instructions.
+- [Tutorials &rarr;](https://docs.assemblyscript.org)<br />Introduction, quick start, examples and general usage instructions.
+- [API Reference &rarr;](https://docs.assemblyscript.org)<br />Introduction, quick start, examples and general usage instructions.
+- [Project governance &rarr;](https://github.com/AssemblyScript/meta)<br />Meta information related to the AssemblyScript project.
+
 ## Installation
 
 Install with [npm](http://npmjs.org/)
@@ -27,6 +35,8 @@ npm install node-package-template
 ```
 
 ## Example
+
+Import the `nodePackageTemplate` utility.
 
 ```ts
 import {nodePackageTemplate} from "node-package-template";
@@ -47,27 +57,13 @@ nodePackageTemplate.cool("hello", "world");
 nodePackageTemplate.cool("uncle", "snoopdog");
 ```
 
-This enables something insane.
-
-## Resources
-
-- [Getting Started &rarr;](./media)<br />Various media files, like logos etc.
-- [Guides &rarr;](https://docs.assemblyscript.org)<br />Introduction, quick start, examples and general usage instructions.
-- [Tutorials &rarr;](https://docs.assemblyscript.org)<br />Introduction, quick start, examples and general usage instructions.
-- [API Reference &rarr;](https://docs.assemblyscript.org)<br />Introduction, quick start, examples and general usage instructions.
-- [Project governance &rarr;](https://github.com/AssemblyScript/meta)<br />Meta information related to the AssemblyScript project.
-
 ## Motivation
 
 > You are now able to write WebAssembly, without learning a new language, and harness all these benefits WebAssembly might offer you. I think that is kind of powerful. [...] It [AssemblyScript] is absolutely usable, and very enjoyable! - Surma, [WebAssembly for Web Developers (Google I/O ’19)](https://youtu.be/njt-Qzw0mVY) (May 8th, 2019)
 
 > AssemblyScript was frictionless. Not only does it allow you to use TypeScript to write WebAssembly, [...] it also produces glue-free WebAssembly modules that are very small with decent performance. – Surma, [Replacing a hot path in your app's JavaScript with WebAssembly](https://developers.google.com/web/updates/2019/02/hotpath-with-wasm) (Feb 16, 2019)
 
-> Perhaps the fundamental issue [to get a small .wasm file] is that JavaScript is the only language for which the Web runtime is a perfect fit. Close relatives that were designed to compile to it, like TypeScript, can be very efficient as well. But languages like C, C++, Rust, and so forth were not originally designed for that purpose. – Alon Zakai, [Small WebAssembly Binaries with Rust + Emscripten](https://kripken.github.io/blog/binaryen/2018/04/18/rust-emscripten.html) (Apr 18, 2018)
-
 > JavaScript's heyday as the only browser language is over, but most web developers are used to writing JavaScript, and learning a new syntax just to get access to WebAssembly is not (always) ideal. If only there was something in to bridge the gap… – Jani Tarvainen, [TypeScript is the bridge between JavaScript and WebAssembly](https://malloc.fi/typescript-bridge-javascript-webassembly) (Feb 20, 2018)
-
-> I do think [compiling TypeScript into WASM] is tremendously useful. It allows JavaScript developers to create WASM modules without having to learn C. – Colin Eberhardt, [Exploring different approaches to building WebAssembly modules](http://blog.scottlogic.com/2017/10/17/wasm-mandelbrot.html) (Oct 17, 2017)
 
 ### License
 
