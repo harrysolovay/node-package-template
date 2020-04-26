@@ -19,7 +19,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - **Feature C** _Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur._
 
 <details>
-<summary><h2>Example</h2></summary>
+<summary>Show example usage</summary>
 
 Import the `nodePackageTemplate` utility.
 
