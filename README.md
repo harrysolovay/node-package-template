@@ -54,11 +54,9 @@ nodePackageTemplate.cool("uncle", "snoopdog");
 
 ## Resources
 
-- [Getting Started &rarr;](./media)<br />A walkthrough of setup and core functionality.
-- [Guides &rarr;](https://docs.assemblyscript.org)<br />Expanded introduction, conceptual overview and general usage instructions.
-- [Tutorials &rarr;](https://docs.assemblyscript.org)<br />Use-case specific examples, which describe the end-to-end, step-by-step.
-- [API Reference &rarr;](https://docs.assemblyscript.org)<br />A generated API reference, based on type signatures and in-source comments.
-- [Project governance &rarr;](https://github.com/AssemblyScript/meta)<br />Meta information related to the node-package-template project.
+- [Guides &rarr;](docs/guide.md)<br />Expanded introduction, conceptual overview and general usage instructions.
+- [API Reference &rarr;](docs/reference.md)<br />A generated API reference, based on type signatures and in-source comments.
+- [Project Governance &rarr;](docs/governance.md)<br />Meta information related to the node-package-template project.
 
 ## Motivation
 
