@@ -21,7 +21,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <details>
 <summary>Show example usage</summary>
 
-</br>
+<br />
 
 Import the `nodePackageTemplate` utility.
 
