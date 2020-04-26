@@ -29,7 +29,6 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@semantic-release/changelog": "^5.0.0",
-    "@semantic-release/exec": "^5.0.0",
     "@semantic-release/git": "^9.0.0",
     "@types/jest": "^24.9.1",
     "@types/node": "^13.5.0",
@@ -84,7 +83,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "yarn lint && yarn test",
+      "pre-push": "yarn lint && yarn test && yarn build:reference && commit:reference",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
@@ -111,17 +110,10 @@
         }
       ],
       [
-        "@semantic-release/exec",
-        {
-          "generateNodesCmd": "yarn build:reference"
-        }
-      ],
-      [
         "@semantic-release/git",
         {
           "assets": [
-            "docs/CHANGELOG.md",
-            "docs/reference/**"
+            "docs/CHANGELOG.md"
           ]
         }
       ],
