@@ -18,23 +18,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - **Feature B** _Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat._
 - **Feature C** _Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur._
 
-## Resources
-
-- [Getting Started &rarr;](./media)<br />Various media files, like logos etc.
-- [Guides &rarr;](https://docs.assemblyscript.org)<br />Introduction, quick start, examples and general usage instructions.
-- [Tutorials &rarr;](https://docs.assemblyscript.org)<br />Introduction, quick start, examples and general usage instructions.
-- [API Reference &rarr;](https://docs.assemblyscript.org)<br />Introduction, quick start, examples and general usage instructions.
-- [Project governance &rarr;](https://github.com/AssemblyScript/meta)<br />Meta information related to the AssemblyScript project.
-
-## Installation
-
-Install with [npm](http://npmjs.org/)
-
-```sh
-npm install node-package-template
-```
-
-## Example
+<details>
+<summary><h2>Example</h2></summary>
 
 Import the `nodePackageTemplate` utility.
 
@@ -55,6 +40,24 @@ We can do another cool thing with this function.
 ```ts
 nodePackageTemplate.cool("hello", "world");
 nodePackageTemplate.cool("uncle", "snoopdog");
+```
+
+</details>
+
+## Resources
+
+- [Getting Started &rarr;](./media)<br />Various media files, like logos etc.
+- [Guides &rarr;](https://docs.assemblyscript.org)<br />Introduction, quick start, examples and general usage instructions.
+- [Tutorials &rarr;](https://docs.assemblyscript.org)<br />Introduction, quick start, examples and general usage instructions.
+- [API Reference &rarr;](https://docs.assemblyscript.org)<br />Introduction, quick start, examples and general usage instructions.
+- [Project governance &rarr;](https://github.com/AssemblyScript/meta)<br />Meta information related to the AssemblyScript project.
+
+## Installation
+
+Install with [npm](http://npmjs.org/)
+
+```sh
+npm install node-package-template
 ```
 
 ## Motivation
