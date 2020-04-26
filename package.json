@@ -12,7 +12,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "A living, comprehensive, best-practices template for Node packages",
+  "description": "A living, best-practices template for TypeScript packages",
   "repository": "github:harrysolovay/node-package-template",
   "bugs": "https://github.com/harrysolovay/node-package-template/issues",
   "homepage": "https://github.com/harrysolovay/node-package-template#readme",
