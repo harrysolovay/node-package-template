@@ -5,6 +5,6 @@
  *
  * @beta
  */
-function api(): string {
+export function api(): string {
   return "Hello World";
 }
