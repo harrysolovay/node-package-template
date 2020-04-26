@@ -47,6 +47,7 @@
     "eslint-plugin-tsdoc": "^0.2.1",
     "eslint-plugin-typescript-sort-keys": "^0.5.0",
     "eslint-plugin-unicorn": "^15.0.1",
+    "exitzero": "^1.0.1",
     "husky": "^4.2.1",
     "jest": "^25.1.0",
     "prettier": "^1.19.1",
@@ -83,7 +84,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "yarn lint && yarn test && yarn build:reference && yarn commit:reference",
+      "pre-push": "yarn lint && yarn test && yarn build:reference && exitzero yarn commit:reference",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
