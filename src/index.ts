@@ -5,6 +5,6 @@
  *
  * @beta
  */
-export const api = (): string => {
+function api(): string {
   return "Hello World";
-};
+}
