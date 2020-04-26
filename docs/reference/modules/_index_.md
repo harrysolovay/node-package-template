@@ -6,11 +6,11 @@
 
 ### Functions
 
-- [api](_index_.md#const-api)
+- [api](_index_.md#api)
 
 ## Functions
 
-### `Const` api
+### api
 
 ▸ **api**(): _string_
 
