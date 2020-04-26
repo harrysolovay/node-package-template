@@ -54,7 +54,7 @@ nodePackageTemplate.cool("uncle", "snoopdog");
 
 ## Resources
 
-- [Guides &rarr;](docs/guide.md)<br />Expanded introduction, conceptual overview and general usage instructions.
+- [Guide &rarr;](docs/guide.md)<br />Expanded introduction, conceptual overview and general usage instructions.
 - [API Reference &rarr;](docs/reference.md)<br />A generated API reference, based on type signatures and in-source comments.
 - [Project Governance &rarr;](docs/governance.md)<br />Meta information related to the node-package-template project.
 
@@ -68,4 +68,4 @@ nodePackageTemplate.cool("uncle", "snoopdog");
 
 ### License
 
-This library is licensed under [the Apache 2.0 License](LICENSE.md).
+This library is licensed under [the Apache 2.0 License](LICENSE).
