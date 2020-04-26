@@ -14,21 +14,9 @@
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
-Core features:
-
-- **Core Feature A** _Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua._
-- **Core Feature B** _Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat._
-- **Core Feature C** _Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur._
-
-How it compares to x:
-
-- **It's smaller.** _It's 40x smaller._
-- **It's faster.** _Componentize the problem of performance._
-- **It's easier to learn.** _You already will have to know React Hooks & Context, just use them, they rock._
-- **It's easier to integrate.** _Integrate one component at a time, and easily integrate with every React library._
-- **It's easier to test.** _Testing reducers is a waste of your time, make it easier to test your React components._
-- **It's easier to typecheck.** _Designed to make most of your types inferable._
-- **It's minimal.** _It's just React._
+- **Feature A** _Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua._
+- **Feature B** _Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat._
+- **Feature C** _Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur._
 
 ## Installation
 
@@ -38,7 +26,7 @@ Install with [npm](http://npmjs.org/)
 npm install node-package-template
 ```
 
-## TL;DR
+## Example
 
 ```ts
 import {nodePackageTemplate} from "node-package-template";
