@@ -1,22 +1,16 @@
-<p align="left">
-
-[![npm version](https://img.shields.io/npm/v/style-dictionary.svg?style=flat-square)](https://badge.fury.io/js/style-dictionary) ![license](https://img.shields.io/npm/l/style-dictionary.svg?style=flat-square) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/amzn/style-dictionary/blob/master/CONTRIBUTING.md#submitting-pull-requests)<br/>[![Build Status](https://img.shields.io/travis/amzn/style-dictionary.svg?style=flat-square)](https://travis-ci.org/amzn/style-dictionary) [![downloads](https://img.shields.io/npm/dm/style-dictionary.svg?style=flat-square)](https://www.npmjs.com/package/style-dictionary)
-
-</p>
-
-<p align="right">
-  <strong>
-    <a href="README.md">English</a> |
-    <a href="README-zh-cn.md">中文</a> |
-    <a href="README-ru-ru.md">Русский</a> |
-    <a href="README-th-th.md">ภาษาไทย</a> |
-    <a href="README-vi-vn.md">Tiếng Việt</a>
-  </strong>
-  <br/>
-  <sup><em>(Please contribute translations!)</em></sup>
-</p>
-
 ## Node Package Template
+
+[![npm version](https://img.shields.io/npm/v/style-dictionary.svg?style=flat-square)](https://badge.fury.io/js/style-dictionary) ![license](https://img.shields.io/npm/l/style-dictionary.svg?style=flat-square) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/amzn/style-dictionary/blob/master/CONTRIBUTING.md#submitting-pull-requests)[![Build Status](https://img.shields.io/travis/amzn/style-dictionary.svg?style=flat-square)](https://travis-ci.org/amzn/style-dictionary) [![downloads](https://img.shields.io/npm/dm/style-dictionary.svg?style=flat-square)](https://www.npmjs.com/package/style-dictionary)
+
+<strong>
+  <a href="README.md">English</a> |
+  <a href="README-zh-cn.md">中文</a> |
+  <a href="README-ru-ru.md">Русский</a> |
+  <a href="README-th-th.md">ภาษาไทย</a> |
+  <a href="README-vi-vn.md">Tiếng Việt</a>
+</strong>
+
+<sup><em>(Please contribute translations!)</em></sup>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
