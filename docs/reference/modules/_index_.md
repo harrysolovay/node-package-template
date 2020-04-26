@@ -4,10 +4,6 @@
 
 ## Index
 
-### Classes
-
-- [Statistics](../classes/_index_.statistics.md)
-
 ### Functions
 
 - [api](_index_.md#const-api)
