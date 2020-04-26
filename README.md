@@ -18,10 +18,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - **Feature B** _Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat._
 - **Feature C** _Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur._
 
-<details>
-<summary>Show example usage</summary>
+<details open>
+<summary><b>Example Usage</b></summary>
 
 <br />
+
+Install `node-package-template` with [npm](http://npmjs.org/)
+
+```sh
+npm install node-package-template
+```
 
 Import the `nodePackageTemplate` utility.
 
@@ -53,14 +59,6 @@ nodePackageTemplate.cool("uncle", "snoopdog");
 - [Tutorials &rarr;](https://docs.assemblyscript.org)<br />Introduction, quick start, examples and general usage instructions.
 - [API Reference &rarr;](https://docs.assemblyscript.org)<br />Introduction, quick start, examples and general usage instructions.
 - [Project governance &rarr;](https://github.com/AssemblyScript/meta)<br />Meta information related to the AssemblyScript project.
-
-## Installation
-
-Install with [npm](http://npmjs.org/)
-
-```sh
-npm install node-package-template
-```
 
 ## Motivation
 
