@@ -1,0 +1,16 @@
+{
+  "exclude": ["**/*.spec.*", "**/tests/**", "example/**"],
+  "excludeNotDocumented": true,
+  "excludeNotExported": true,
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "gitRemote": "https://github.com/harrysolovay/node-package-template.git",
+  "hideGenerator": true,
+  "listInvalidSymbolLinks": true,
+  "mode": "modules",
+  "name": "Node Package Template Reference",
+  "out": "docs/reference",
+  "plugin": ["typedoc-plugin-markdown"],
+  "readme": "none",
+  "stripInternal": true
+}

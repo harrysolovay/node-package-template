@@ -29,6 +29,7 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@semantic-release/changelog": "^5.0.0",
+    "@semantic-release/exec": "^5.0.0",
     "@semantic-release/git": "^9.0.0",
     "@types/jest": "^24.9.1",
     "@types/node": "^13.5.0",
@@ -53,6 +54,8 @@
     "semantic-release": "^17.0.4",
     "ts-jest": "^25.0.0",
     "ts-node": "^8.6.2",
+    "typedoc": "^0.17.5",
+    "typedoc-plugin-markdown": "^2.2.17",
     "typescript": "^3.8.2"
   },
   "jest": {
@@ -108,10 +111,17 @@
         }
       ],
       [
+        "@semantic-release/exec",
+        {
+          "generateNodesCmd": "yarn build:reference"
+        }
+      ],
+      [
         "@semantic-release/git",
         {
           "assets": [
-            "docs/CHANGELOG.md"
+            "docs/CHANGELOG.md",
+            "docs/reference/**"
           ]
         }
       ],
@@ -123,11 +133,12 @@
   },
   "scripts": {
     "clean": "rm -rf yarn.lock node_modules esm cjs types",
-    "lint": "eslint '{example,src}/**/*' -c .eslintrc --fix",
+    "lint": "eslint '{example,src}/**/*' --fix",
     "test": "jest --coverage",
+    "build:reference": "typedoc && prettier 'docs/reference/**' --write",
+    "build:types": "tsc -p tsconfig.types.json",
     "build:esm": "tsc -p tsconfig.esm.json",
     "build:cjs": "tsc -p tsconfig.cjs.json && chmod +x cjs/cli.js",
-    "build:types": "tsc -p tsconfig.types.json",
     "build": "yarn build:esm & yarn build:cjs & yarn build:types",
     "example": "ts-node example"
   }
