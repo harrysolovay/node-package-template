@@ -14,9 +14,9 @@
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
-- **Feature A** _Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua._
-- **Feature B** _Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat._
-- **Feature C** _Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur._
+- **Feature A** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+- **Feature B** Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+- **Feature C** Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 <details open>
 <summary><b>Example Usage</b></summary>
@@ -54,11 +54,11 @@ nodePackageTemplate.cool("uncle", "snoopdog");
 
 ## Resources
 
-- [Getting Started &rarr;](./media)<br />Various media files, like logos etc.
-- [Guides &rarr;](https://docs.assemblyscript.org)<br />Introduction, quick start, examples and general usage instructions.
-- [Tutorials &rarr;](https://docs.assemblyscript.org)<br />Introduction, quick start, examples and general usage instructions.
-- [API Reference &rarr;](https://docs.assemblyscript.org)<br />Introduction, quick start, examples and general usage instructions.
-- [Project governance &rarr;](https://github.com/AssemblyScript/meta)<br />Meta information related to the AssemblyScript project.
+- [Getting Started &rarr;](./media)<br />A walkthrough of setup and core functionality.
+- [Guides &rarr;](https://docs.assemblyscript.org)<br />Expanded introduction, conceptual overview and general usage instructions.
+- [Tutorials &rarr;](https://docs.assemblyscript.org)<br />Use-case specific examples, which describe the end-to-end, step-by-step.
+- [API Reference &rarr;](https://docs.assemblyscript.org)<br />A generated API reference, based on type signatures and in-source comments.
+- [Project governance &rarr;](https://github.com/AssemblyScript/meta)<br />Meta information related to the node-package-template project.
 
 ## Motivation
 
