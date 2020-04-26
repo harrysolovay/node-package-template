@@ -83,7 +83,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "yarn lint && yarn test && yarn build:reference && commit:reference",
+      "pre-push": "yarn lint && yarn test && yarn build:reference && yarn commit:reference",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
