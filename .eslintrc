@@ -70,6 +70,9 @@
     "tsdoc/syntax": "error",
     "typescript-sort-keys/interface": "off",
     "typescript-sort-keys/string-enum": "error",
+    "unicorn/consistent-function-scoping": "off",
+    "unicorn/new-for-builtins": "off",
+    "unicorn/no-nested-ternary": "off",
     "unicorn/prevent-abbreviations": "off"
   }
 }
