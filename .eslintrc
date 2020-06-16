@@ -13,9 +13,7 @@
     "plugin:promise/recommended",
     "plugin:unicorn/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "prettier",
-    "prettier/@typescript-eslint",
-    "plugin:prettier/recommended"
+    "plugin:dprint/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -26,7 +24,6 @@
   },
   "plugins": [
     "@typescript-eslint",
-    "prettier",
     "security",
     "promise",
     "unicorn",
@@ -73,6 +70,21 @@
     "unicorn/consistent-function-scoping": "off",
     "unicorn/new-for-builtins": "off",
     "unicorn/no-nested-ternary": "off",
-    "unicorn/prevent-abbreviations": "off"
+    "unicorn/prevent-abbreviations": "off",
+    "dprint/dprint": [
+      "error",
+      {
+        "config": {
+          "lineWidth": 80,
+          "indentWidth": 2,
+          "useTabs": false,
+          "semiColons": "always",
+          "quoteStyle": "preferDouble",
+          "useBraces": "always",
+          "bracePosition": "sameLine",
+          "singleBodyPosition": "nextLine"
+        }
+      }
+    ]
   }
 }
