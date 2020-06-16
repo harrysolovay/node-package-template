@@ -6,5 +6,5 @@
 
 ### Modules
 
-- ["cli"](modules/_cli_.md)
-- ["index"](modules/_index_.md)
+* ["cli"](modules/_cli_.md)
+* ["index"](modules/_index_.md)

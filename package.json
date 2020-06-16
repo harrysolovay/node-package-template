@@ -82,7 +82,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "yarn lint && yarn test && yarn build:reference && exitzero yarn commit:reference",
+      "pre-push": "yarn lint && yarn test && typedoc && exitzero yarn commit:reference",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
@@ -126,7 +126,6 @@
     "clean": "rm -rf yarn.lock node_modules esm cjs types",
     "lint": "eslint '{example,src}/**/*' --fix",
     "test": "jest --coverage",
-    "build:reference": "typedoc && eslint 'docs/reference/**' --fix",
     "commit:reference": "git add docs/reference && git commit -m \"chore: build API reference\"",
     "build:types": "tsc -p tsconfig.types.json",
     "build:esm": "tsc -p tsconfig.esm.json",

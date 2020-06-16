@@ -6,20 +6,20 @@
 
 ### Functions
 
-- [api](_index_.md#api)
+* [api](_index_.md#api)
 
 ## Functions
 
-### api
+###  api
 
-▸ **api**(): _string_
+▸ **api**(): *string*
 
 Defined in index.ts:8
 
 Some description of the `api` function
 
-**`beta`**
+**`beta`** 
 
-**Returns:** _string_
+**Returns:** *string*
 
 the string "Hello World"

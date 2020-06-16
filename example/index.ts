@@ -1,3 +1,3 @@
-import {api} from "../src";
+import { api } from "../src";
 
 console.log(api());
