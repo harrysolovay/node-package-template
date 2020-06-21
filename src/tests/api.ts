@@ -1,4 +1,4 @@
-import { api } from "..";
+import {api} from "..";
 
 describe("test block 2", () => {
   it("test 1", () => {

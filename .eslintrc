@@ -82,7 +82,15 @@
           "quoteStyle": "preferDouble",
           "useBraces": "always",
           "bracePosition": "sameLine",
-          "singleBodyPosition": "nextLine"
+          "singleBodyPosition": "nextLine",
+          "trailingCommas": "onlyMultiLine",
+          "arrowFunction.useParentheses": true,
+          "exportDeclaration.spaceSurroundingNamedExports": false,
+          "forInStatement.spaceAfterForKeyword": false,
+          "forOfStatement.spaceAfterForKeyword": false,
+          "forStatement.spaceAfterForKeyword": false,
+          "importDeclaration.spaceSurroundingNamedImports": false,
+          "whileStatement.spaceAfterWhileKeyword": false
         }
       }
     ]

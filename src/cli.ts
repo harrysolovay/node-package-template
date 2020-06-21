@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import { api } from ".";
+import {api} from ".";
 
 console.log(api());

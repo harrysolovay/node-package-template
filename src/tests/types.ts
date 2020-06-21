@@ -1,5 +1,5 @@
-import { IsExact, assert } from "conditional-type-checks";
-import { api } from "..";
+import {IsExact, assert} from "conditional-type-checks";
+import {api} from "..";
 
 describe("test block 3", () => {
   it("test 1", () => {
