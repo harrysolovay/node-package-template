@@ -126,7 +126,7 @@
     "clean": "rm -rf yarn.lock node_modules esm cjs types",
     "lint": "eslint '{example,src}/**/*' --fix",
     "test": "jest --coverage",
-    "commit:reference": "git add docs/reference && git commit -m \"chore: build API reference\"",
+    "commit:reference": "git add docs/reference && git commit -m \"docs: build API reference\"",
     "build:types": "tsc -p tsconfig.types.json",
     "build:esm": "tsc -p tsconfig.esm.json",
     "build:cjs": "tsc -p tsconfig.cjs.json && chmod +x cjs/cli.js",
