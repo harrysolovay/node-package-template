@@ -1,6 +1,6 @@
 {
   "env": {
-    "browser": false,
+    "browser": true,
     "jest": true,
     "node": true
   },
@@ -9,11 +9,11 @@
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:jest/all",
-    "plugin:security/recommended",
     "plugin:promise/recommended",
-    "plugin:unicorn/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "plugin:dprint/recommended"
+    "prettier",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -24,9 +24,8 @@
   },
   "plugins": [
     "@typescript-eslint",
-    "security",
+    "prettier",
     "promise",
-    "unicorn",
     "no-null",
     "sort-keys-fix",
     "sort-destructure-keys",
@@ -51,8 +50,6 @@
     "jest/lowercase-name": "off",
     "no-inner-declarations": "off",
     "no-null/no-null": "error",
-    "security/detect-non-literal-fs-filename": "off",
-    "security/detect-object-injection": "off",
     "sort-destructure-keys/sort-destructure-keys": "error",
     "sort-imports": [
       "error",
@@ -66,33 +63,6 @@
     "sort-keys-fix/sort-keys-fix": "error",
     "tsdoc/syntax": "error",
     "typescript-sort-keys/interface": "off",
-    "typescript-sort-keys/string-enum": "error",
-    "unicorn/consistent-function-scoping": "off",
-    "unicorn/new-for-builtins": "off",
-    "unicorn/no-nested-ternary": "off",
-    "unicorn/prevent-abbreviations": "off",
-    "dprint/dprint": [
-      "error",
-      {
-        "config": {
-          "lineWidth": 80,
-          "indentWidth": 2,
-          "useTabs": false,
-          "semiColons": "always",
-          "quoteStyle": "preferDouble",
-          "useBraces": "always",
-          "bracePosition": "sameLine",
-          "singleBodyPosition": "nextLine",
-          "trailingCommas": "onlyMultiLine",
-          "arrowFunction.useParentheses": true,
-          "exportDeclaration.spaceSurroundingNamedExports": false,
-          "forInStatement.spaceAfterForKeyword": false,
-          "forOfStatement.spaceAfterForKeyword": false,
-          "forStatement.spaceAfterForKeyword": false,
-          "importDeclaration.spaceSurroundingNamedImports": false,
-          "whileStatement.spaceAfterWhileKeyword": false
-        }
-      }
-    ]
+    "typescript-sort-keys/string-enum": "error"
   }
 }
