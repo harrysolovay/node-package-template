@@ -1,0 +1,13 @@
+.github
+.vscode
+coverage
+example
+src
+.editorconfig
+.eslintrc
+.gitignore
+.prettierrc
+CODE_OF_CONDUCT.md
+cspell.json
+tsconfig.*
+typedoc.json

@@ -35,6 +35,7 @@
     "@typescript-eslint/eslint-plugin": "^2.18.0",
     "@typescript-eslint/parser": "^2.18.0",
     "conditional-type-checks": "^1.0.5",
+    "cspell": "^4.0.63",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-jest": "^23.6.0",
@@ -82,7 +83,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "yarn lint && yarn test && typedoc && exitzero yarn commit:reference",
+      "pre-push": "yarn lint && yarn test && yarn spellcheck && typedoc && exitzero yarn commit:reference",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
@@ -126,11 +127,12 @@
     "clean": "rm -rf yarn.lock node_modules esm cjs types",
     "lint": "eslint '{example,src}/**/*' --fix",
     "test": "jest --coverage",
+    "spellcheck": "cspell README.md",
     "commit:reference": "git add docs/reference && git commit -m \"docs: build API reference\"",
     "build:types": "tsc -p tsconfig.types.json",
     "build:esm": "tsc -p tsconfig.esm.json",
     "build:cjs": "tsc -p tsconfig.cjs.json && chmod +x cjs/cli.js",
-    "build": "yarn build:esm & yarn build:cjs & yarn build:types",
+    "build": "yarn build:esm && yarn build:cjs && yarn build:types",
     "example": "ts-node example"
   }
 }
