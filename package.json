@@ -1,9 +1,9 @@
 {
   "name": "node-package-template",
   "license": "Apache-2.0",
+  "types": "esm/index.d.ts",
   "module": "esm/index.js",
   "main": "cjs/index.js",
-  "types": "types/index.d.ts",
   "bin": {
     "node-package-template": "cjs/cli.js"
   },
@@ -129,10 +129,9 @@
     "test": "jest --coverage",
     "spellcheck": "cspell README.md",
     "commit:reference": "git add docs/reference && git commit -m \"docs: build API reference\"",
-    "build:types": "tsc -p tsconfig.types.json",
-    "build:esm": "tsc -p tsconfig.esm.json",
+    "build:esm": "tsc -p tsconfig.esm.json && chmod +x esm/cli.js",
     "build:cjs": "tsc -p tsconfig.cjs.json && chmod +x cjs/cli.js",
-    "build": "yarn build:esm && yarn build:cjs && yarn build:types",
+    "build": "yarn build:esm && yarn build:cjs",
     "example": "ts-node example"
   }
 }

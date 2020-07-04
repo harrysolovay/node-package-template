@@ -54,7 +54,6 @@ prod
 build
 esm
 pkg
-types
 cjs
 .cdk.staging
 cdk.out
