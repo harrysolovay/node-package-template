@@ -11,6 +11,7 @@
     "plugin:jest/all",
     "plugin:promise/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:regexp/recommended",
     "prettier",
     "prettier/@typescript-eslint",
     "plugin:prettier/recommended"
