@@ -47,6 +47,7 @@
     "arrow-parens": ["error", "always"],
     "import/order": "off",
     "jest/lowercase-name": "off",
+    "jest/no-commented-out-tests": "off",
     "no-inner-declarations": "off",
     "no-null/no-null": "error",
     "sort-destructure-keys/sort-destructure-keys": "error",
