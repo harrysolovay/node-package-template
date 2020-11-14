@@ -3,6 +3,5 @@
   "compilerOptions": {
     "module": "CommonJS"
   },
-  "extends": "./tsconfig.base.json",
-  "include": ["example", "src"]
+  "extends": "./tsconfig.base.json"
 }

@@ -1,23 +1,17 @@
-name: Release
+name: Test
 on:
   push:
     branches:
-      - master
-      - next
-      - beta
+      - main
 jobs:
-  release:
-    name: Release
+  test:
+    name: Test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
           node-version: "12.x"
-      - run: yarn install --frozen-lockfile
+      - run: npm ci
       - run: yarn test
       - run: yarn build
-      - run: yarn semantic-release
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          NPM_TOKEN: ${{secrets.NPM_TOKEN}}

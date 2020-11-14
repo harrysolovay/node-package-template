@@ -16,7 +16,7 @@
   "repository": "github:harrysolovay/node-package-template",
   "bugs": "https://github.com/harrysolovay/node-package-template/issues",
   "homepage": "https://github.com/harrysolovay/node-package-template#readme",
-  "authors": [
+  "contributors": [
     "Harry Solovay <harrysolovay@gmail.com>"
   ],
   "keywords": [
@@ -24,39 +24,35 @@
     "package",
     "template"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "npm": "^6.14.8"
+  },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "@semantic-release/changelog": "^5.0.0",
-    "@semantic-release/git": "^9.0.0",
-    "@types/jest": "^24.9.1",
-    "@types/node": "^13.5.0",
-    "@typescript-eslint/eslint-plugin": "^2.18.0",
-    "@typescript-eslint/parser": "^2.18.0",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.14.7",
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
     "conditional-type-checks": "^1.0.5",
-    "cspell": "^4.0.63",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-jest": "^23.6.0",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-jest": "^24.1.3",
     "eslint-plugin-no-null": "^1.0.2",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-regexp": "^0.1.1",
-    "eslint-plugin-sort-destructure-keys": "^1.3.3",
-    "eslint-plugin-sort-keys-fix": "^1.1.0",
-    "eslint-plugin-tsdoc": "^0.2.1",
-    "eslint-plugin-typescript-sort-keys": "^0.5.0",
+    "eslint-plugin-sort-destructure-keys": "^1.3.5",
+    "eslint-plugin-sort-keys-fix": "^1.1.1",
+    "eslint-plugin-tsdoc": "^0.2.7",
+    "eslint-plugin-typescript-sort-keys": "^1.5.0",
     "exitzero": "^1.0.1",
-    "husky": "^4.2.1",
-    "jest": "^25.1.0",
-    "prettier": "^2.0.5",
-    "semantic-release": "^17.0.4",
-    "ts-jest": "^25.0.0",
-    "ts-node": "^8.6.2",
-    "typedoc": "^0.17.5",
-    "typedoc-plugin-markdown": "^2.2.17",
-    "typescript": "^3.8.2"
+    "husky": "^4.3.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.1.2",
+    "ts-jest": "^26.4.4",
+    "ts-node": "^9.0.0",
+    "typedoc": "^0.19.2",
+    "typedoc-plugin-markdown": "^3.0.11",
+    "typescript": "^4.0.5"
   },
   "jest": {
     "cache": false,
@@ -77,62 +73,17 @@
     ],
     "verbose": false
   },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
   "husky": {
     "hooks": {
-      "pre-push": "yarn lint && yarn test && yarn spellcheck && typedoc && exitzero yarn commit:reference",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "pre-push": "npm run lint && npm run test && typedoc && exitzero yarn commit-reference"
     }
   },
-  "release": {
-    "branches": [
-      "master",
-      {
-        "name": "next",
-        "channel": "next"
-      },
-      {
-        "name": "beta",
-        "channel": "beta",
-        "prerelease": "beta"
-      }
-    ],
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      [
-        "@semantic-release/changelog",
-        {
-          "changelogFile": "docs/CHANGELOG.md"
-        }
-      ],
-      [
-        "@semantic-release/git",
-        {
-          "assets": [
-            "docs/CHANGELOG.md"
-          ]
-        }
-      ],
-      "@semantic-release/github",
-      [
-        "@semantic-release/npm"
-      ]
-    ]
-  },
   "scripts": {
-    "clean": "rm -rf yarn.lock node_modules esm cjs types",
+    "clean": "rm -rf cjs esm node_modules",
     "lint": "eslint '{example,src}/**/*' --fix",
     "test": "jest --coverage",
-    "spellcheck": "cspell README.md",
-    "commit:reference": "git add docs/reference && git commit -m \"docs: build API reference\"",
-    "build:esm": "tsc -p tsconfig.esm.json && chmod +x esm/cli.js",
-    "build:cjs": "tsc -p tsconfig.cjs.json && chmod +x cjs/cli.js",
-    "build": "yarn build:esm && yarn build:cjs",
+    "commit-reference": "git add docs/reference && git commit -m \"docs: build API reference\"",
+    "build": "tsc -P tsconfig.cjs.json & tsc -P tsconfig.esm.json",
     "example": "ts-node example"
   }
 }
