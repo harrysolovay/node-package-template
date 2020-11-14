@@ -6,7 +6,6 @@
 .vscode
 CODE_OF_CONDUCT.md
 coverage
-cspell.json
 example
 src
 tsconfig.*
