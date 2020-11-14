@@ -75,7 +75,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm run lint && npm run test && typedoc && exitzero yarn commit-reference"
+      "pre-push": "npm run lint && npm run test && npm run build && typedoc && exitzero yarn commit-reference"
     }
   },
   "scripts": {
