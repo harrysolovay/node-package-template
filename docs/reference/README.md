@@ -1,4 +1,6 @@
-[Node Package Template Reference](README.md)
+**[Node Package Template Reference](README.md)**
+
+> Globals
 
 # Node Package Template Reference
 

@@ -1,5 +1,5 @@
-[Node Package Template Reference](../README.md) › ["cli"](_cli_.md)
+**[Node Package Template Reference](../README.md)**
+
+> [Globals](../README.md) / "cli"
 
 # Module: "cli"
-
-

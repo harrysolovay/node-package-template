@@ -1,4 +1,6 @@
-[Node Package Template Reference](../README.md) › ["index"](_index_.md)
+**[Node Package Template Reference](../README.md)**
+
+> [Globals](../README.md) / "index"
 
 # Module: "index"
 
@@ -10,16 +12,16 @@
 
 ## Functions
 
-###  api
+### api
 
-▸ **api**(): *string*
+▸ **api**(): string
 
-Defined in index.ts:8
+*Defined in index.ts:8*
 
 Some description of the `api` function
 
 **`beta`** 
 
-**Returns:** *string*
+**Returns:** string
 
 the string "Hello World"

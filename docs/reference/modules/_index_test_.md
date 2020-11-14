@@ -1,5 +1,5 @@
-[Node Package Template Reference](../README.md) › ["index.test"](_index_test_.md)
+**[Node Package Template Reference](../README.md)**
+
+> [Globals](../README.md) / "index.test"
 
 # Module: "index.test"
-
-
