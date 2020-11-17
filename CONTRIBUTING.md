@@ -40,8 +40,8 @@ If you have a question about this project, how to use it, or just need clarifica
 Once it's filed:
 
 - The project team will [label the issue](#label-issues).
-- Someone will try to have a response soon.
-- If you or the maintainers don't respond to an issue for 30 days, the [issue will be closed](#clean-up-issues-and-prs). If you want to come back to it, reply (once, please), and we'll reopen the existing issue. Please avoid filing new issues as extensions of one you already made.
+- Someone will **try** (we're only human) to respond soon.
+- If you or the maintainers don't respond to an issue for 30 days, the [issue will be closed](#clean-up-issues-and-prs). If you want to come back to it, reply (once, please), and we'll reopen the existing issue. Please avoid filing new issues as extensions of ones you've already filed.
 
 ## Report an Error or Bug
 
@@ -54,10 +54,10 @@ If you run into an error or bug with the project:
 Once it's filed:
 
 - The project team will [label the issue](#label-issues).
-- A team member will try to reproduce the issue with your provided steps. If there are no repro steps or no obvious way to reproduce the issue, the team will ask you for those steps and mark the issue as `needs-repro`. Bugs with the `needs-repro` tag will not be addressed until they are reproduced.
+- A team member will **try** (again, we're only human) to reproduce the issue with your provided steps. If there are no repro steps or no obvious way to reproduce the issue, the team will ask you for those steps and mark the issue as `needs-repro`. Bugs with the `needs-repro` tag will not be addressed until they are reproduced.
 - If the team is able to reproduce the issue, it will be marked `needs-fix`, as well as possibly other tags (such as `critical`), and the issue will be left to be [implemented by someone](#contribute-code).
 - If you or the maintainers don't respond to an issue for 30 days, the [issue will be closed](#clean-up-issues-and-prs). If you want to come back to it, reply (once, please), and we'll reopen the existing issue. Please avoid filing new issues as extensions of one you already made.
-- `critical` issues may be left open, depending on perceived immediacy and severity, even past the 30 day deadline.
+- `critical` issues may be left open, depending on perceived immediacy and severity, even past the stale-bot-imposed 30 days.
 
 ## Request a Feature
 
