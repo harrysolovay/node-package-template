@@ -5,18 +5,17 @@
 # !(package|package-lock|(tsconfig.*)).json
 
 *
+!CHANGELOG.md
 !CODE_OF_CONDUCT.md
 !CONTRIBUTING.md
 !README.md
-!.editorconfig
 !.github
 !.prettierrc
-!.versionrc.json
 !.vscode
 !docs
 !example
 !LICENSE
 !src
-!package
-!package-lock
+!package.json
+!package-lock.json
 !tsconfig*.json
