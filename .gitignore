@@ -1,2 +1,2 @@
 *
-!(.editorconfig|.github|.gitignore|.prettierrc|.vscode|CODE_OF_CONDUCT.md|docs|example|LICENSE|package.json|package-lock.json|README.mdsrc|tsconfig.*)
+!(.editorconfig|.github|.gitignore|.prettierrc|.vscode|CODE_OF_CONDUCT.md|docs|example|LICENSE|package.json|package-lock.json|README.md|src|tsconfig.*)
