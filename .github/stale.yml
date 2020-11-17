@@ -10,5 +10,7 @@ exemptLabels:
 staleLabel: pending-close-response-required
 markComment: >
   Please follow-up on this issue if you wish to keep it open. Thank you!
+
 closeComment: >
   This issue has been closed because of inactivity. Please open a new issue if you are still encountering problems.
+
