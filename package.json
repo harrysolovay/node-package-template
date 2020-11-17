@@ -56,12 +56,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm run lint && npm run test && npm run build"
+      "pre-push": "npm run format && npm run build && npm run test"
     }
   },
   "scripts": {
     "clean": "rm -rf cjs esm node_modules",
-    "lint": "prettier --write '{example,src}/**/*'",
+    "format": "prettier --write '{example,src}/**/*'",
     "test": "jest --coverage",
     "build": "tsc -P tsconfig.cjs.json & tsc -P tsconfig.esm.json",
     "example": "ts-node example"
