@@ -28,7 +28,7 @@ npm install constructor-chain
 
 > `constructor-chain` is packaged in both ESM & CJS formats, alongside its type definitions.
 
-### Basic Usage
+## Basic Usage
 
 ```ts
 import {Chainable} from "constructor-chain";
