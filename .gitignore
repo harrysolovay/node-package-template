@@ -1,5 +1,22 @@
+# *
+# !(CODE_OF_CONDUCT|CONTRIBUTING|README).md
+# !.(editorconfig|github|gitignore|prettierrc|versionrc|vscode)
+# !(docs|example|LICENSE|src)
+# !(package|package-lock|(tsconfig.*)).json
+
 *
-!(CODE_OF_CONDUCT|CONTRIBUTING|README).md
-!.(editorconfig|github|gitignore|prettierrc|vscode)
-!(docs|example|LICENSE|src)
-!(package|package-lock|(tsconfig.*)).json
+!CODE_OF_CONDUCT.md
+!CONTRIBUTING.md
+!README.md
+!.editorconfig
+!.github
+!.prettierrc
+!.versionrc.json
+!.vscode
+!docs
+!example
+!LICENSE
+!src
+!package
+!package-lock
+!tsconfig*.json

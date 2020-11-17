@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package",
   "name": "package-name",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "license": "Apache-2.0",
   "types": "esm/index.d.ts",
   "module": "esm/index.js",
@@ -52,6 +52,12 @@
   "husky": {
     "hooks": {
       "pre-push": "npm run format && npm run build && npm run test"
+    }
+  },
+  "standard-version": {
+    "bumpFiles": {
+      "filename": "package.json",
+      "type": "json"
     }
   },
   "scripts": {
