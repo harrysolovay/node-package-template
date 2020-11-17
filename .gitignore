@@ -1,21 +1,15 @@
-# *
-# !(CODE_OF_CONDUCT|CONTRIBUTING|README).md
-# !.(editorconfig|github|gitignore|prettierrc|versionrc|vscode)
-# !(docs|example|LICENSE|src)
-# !(package|package-lock|(tsconfig.*)).json
-
 *
-!CHANGELOG.md
-!CODE_OF_CONDUCT.md
-!CONTRIBUTING.md
-!README.md
 !.github
 !.prettierrc
 !.vscode
+!CHANGELOG.md
+!CODE_OF_CONDUCT.md
+!CONTRIBUTING.md
 !docs
 !example
 !LICENSE
-!src
 !package.json
 !package-lock.json
+!README.md
+!src
 !tsconfig*.json

@@ -1,6 +1,7 @@
 {
   "arrowParens": "always",
   "bracketSpacing": false,
+  "embeddedLanguageFormatting": "auto",
   "jsxBracketSameLine": false,
   "jsxSingleQuote": false,
   "proseWrap": "never",
