@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/package",
-  "name": "node-package-template",
+  "name": "package-name",
   "license": "Apache-2.0",
   "types": "esm/index.d.ts",
   "module": "esm/index.js",
@@ -14,16 +14,12 @@
     "cjs",
     "esm"
   ],
-  "description": "A living, best-practices template for TypeScript packages",
-  "repository": "github:harrysolovay/node-package-template",
+  "description": "",
+  "repository": "github:harrysolovay/package-name",
   "contributors": [
     "Harry Solovay <harrysolovay@gmail.com>"
   ],
-  "keywords": [
-    "node",
-    "package",
-    "template"
-  ],
+  "keywords": [],
   "devDependencies": {
     "@types/jest": "^26.0.15",
     "@types/node": "^14.14.7",

@@ -10,7 +10,7 @@ labels: ""
 2) Make sure that you have searched through previous issues (incase this is to be a duplicate).
 -->
 
-**`node-package-template` version:** \[version\]
+**`package-name` version:** \[version\]
 
 <!-- List the keywords you searched for before creating this issue (so others can find this issue more easily). -->
 

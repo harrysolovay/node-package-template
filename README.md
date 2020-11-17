@@ -23,16 +23,16 @@ Description
 
 <br />
 
-Install `node-package-template` with [npm](http://npmjs.org/)
+Install `package-name` with [npm](http://npmjs.org/)
 
 ```sh
-npm install node-package-template
+npm install package-name
 ```
 
 Import the `nodePackageTemplate` utility.
 
 ```ts
-import {nodePackageTemplate} from "node-package-template";
+import {nodePackageTemplate} from "package-name";
 // (a: string, b: string) => void
 ```
 
@@ -56,7 +56,7 @@ nodePackageTemplate.cool("uncle", "snoopdog");
 
 - [Guide &rarr;](docs/guide.md)<br />Expanded introduction, conceptual overview and general usage instructions.
 - [API Reference &rarr;](docs/reference.md)<br />A generated API reference, based on type signatures and in-source comments.
-- [Project Governance &rarr;](docs/governance.md)<br />Meta information related to the node-package-template project.
+- [Project Governance &rarr;](docs/governance.md)<br />Meta information related to the package-name project.
 
 ## Motivation
 
