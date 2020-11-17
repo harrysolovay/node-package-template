@@ -54,12 +54,6 @@
       "pre-push": "npm run format && npm run build && npm run test"
     }
   },
-  "standard-version": {
-    "bumpFiles": {
-      "filename": "package.json",
-      "type": "json"
-    }
-  },
   "scripts": {
     "clean": "rm -rf cjs esm node_modules",
     "format": "prettier --write '{example,src}/**/*'",
