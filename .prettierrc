@@ -4,6 +4,7 @@
   "embeddedLanguageFormatting": "auto",
   "jsxBracketSameLine": false,
   "jsxSingleQuote": false,
+  "printWidth": 140,
   "proseWrap": "never",
   "semi": true,
   "singleQuote": false,
