@@ -1,4 +1,4 @@
-# Contributing
+# Contributing Guide
 
 ## How do I... <a name="toc"></a>
 
