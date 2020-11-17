@@ -1,56 +1,65 @@
 ## Node Package Template
 
-[![npm version](https://img.shields.io/npm/v/style-dictionary.svg?style=flat-square)](https://badge.fury.io/js/style-dictionary) ![license](https://img.shields.io/npm/l/style-dictionary.svg?style=flat-square) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/amzn/style-dictionary/blob/master/CONTRIBUTING.md#submitting-pull-requests) [![Build Status](https://img.shields.io/travis/amzn/style-dictionary.svg?style=flat-square)](https://travis-ci.org/amzn/style-dictionary) [![downloads](https://img.shields.io/npm/dm/style-dictionary.svg?style=flat-square)](https://www.npmjs.com/package/style-dictionary)
+**`package-name` enables... something incredibly cool.**
 
-<strong>
-  <a href="README.md">English</a> |
-  <a href="README-zh-cn.md">中文</a> |
-  <a href="README-ru-ru.md">Русский</a> |
-  <a href="README-th-th.md">ภาษาไทย</a> |
-  <a href="README-vi-vn.md">Tiếng Việt</a>
-</strong>
+---
 
-<sup><em>(We'd be very grateful for more translation contributions!)</em></sup>
+[![npm version](https://img.shields.io/npm/v/style-dictionary.svg?style=flat-square)](https://badge.fury.io/js/style-dictionary) ![license](https://img.shields.io/npm/l/style-dictionary.svg?style=flat-square) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/amzn/style-dictionary/blob/master/CONTRIBUTING.md#submitting-pull-requests) [![downloads](https://img.shields.io/npm/dm/style-dictionary.svg?style=flat-square)](https://www.npmjs.com/package/style-dictionary)
 
-Description
+## Installation
 
-- **Feature A** Description
-- **Feature B** Description
-- **Feature C** Description
+**Deno** users can reference the GitHub source directly (make sure to specify the version).
 
-<details open>
-<summary><b>Example Usage</b></summary>
+`import_map.json`
 
-<br />
+```json
+{
+  "imports": {
+    "constructor-chain": "https://github.com/harrysolovay/constructor-chain/blob/v[x.x.x]/src/index.ts"
+  }
+}
+```
 
-Install `package-name` with [npm](http://npmjs.org/)
+**Node** users can install with [npm](https://www.npmjs.com/package/constructor-chain).
 
 ```sh
-npm install package-name
+npm install constructor-chain
 ```
 
-Import the `nodePackageTemplate` utility.
+> `constructor-chain` is packaged in both ESM & CJS formats, alongside its type definitions.
+
+### Basic Usage
 
 ```ts
-import {nodePackageTemplate} from "package-name";
-// (a: string, b: string) => void
+import {Chainable} from "constructor-chain";
+
+const A = Chainable(
+  class {
+    static readonly a = "Hello";
+  },
+);
+
+A.a; // type `"hello"`
+new A(); // instance of `A`, which is extended from the anonymous class
+
+const B = A.next({
+  b: "chainables",
+} as const);
+
+B.a; // type `"hello"`
+B.b; // type `"chainables"`
+new B(); // instance of `B` (subtype of `A`)
+
+const C = B.next({
+  staticsToString() {
+    // we can reference inherited statics with `this`
+    return `${this.a} ${this.b}!`;
+  },
+});
+
+C.staticsToString(); // `Hello chainables!`
+new C(); // instance of `C` (subtype of `B`)
 ```
-
-The `nodePackageTemplate` export is a function which accepts two strings and does something with them.
-
-```ts
-nodePackageTemplate("hello", "world");
-nodePackageTemplate("uncle", "snoopdog");
-```
-
-We can do another cool thing with this function.
-
-```ts
-nodePackageTemplate.cool("hello", "world");
-nodePackageTemplate.cool("uncle", "snoopdog");
-```
-
-</details>
 
 ## Resources
 
