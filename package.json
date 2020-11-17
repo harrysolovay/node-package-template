@@ -17,9 +17,6 @@
   ],
   "description": "",
   "repository": "github:harrysolovay/package-name",
-  "contributors": [
-    "Harry Solovay <harrysolovay@gmail.com>"
-  ],
   "keywords": [],
   "devDependencies": {
     "@types/jest": "^26.0.15",
@@ -62,7 +59,7 @@
     "format": "prettier --write '{example,src}/**/*'",
     "test": "jest --coverage",
     "build": "tsc -P tsconfig.cjs.json & tsc -P tsconfig.esm.json",
-    "version": "standard-version",
+    "release": "standard-version",
     "example": "ts-node example"
   }
 }
