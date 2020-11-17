@@ -58,7 +58,7 @@
   "scripts": {
     "clean": "rm -rf cjs esm node_modules",
     "format": "prettier --write '{*.(json|md),src/**}' --loglevel error",
-    "test": "jest --coverage",
+    "test": "jest",
     "build": "tsc -P tsconfig.cjs.json & tsc -P tsconfig.esm.json",
     "release": "standard-version",
     "example": "ts-node example"
