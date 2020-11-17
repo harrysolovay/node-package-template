@@ -61,6 +61,7 @@
     "test": "jest",
     "build": "tsc -P tsconfig.cjs.json & tsc -P tsconfig.esm.json",
     "release": "standard-version",
+    "release-next": "npm run release -- --prerelease next",
     "example": "ts-node example"
   }
 }
