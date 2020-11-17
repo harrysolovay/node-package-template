@@ -10,6 +10,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "cjs",
+    "esm"
+  ],
   "description": "A living, best-practices template for TypeScript packages",
   "repository": "github:harrysolovay/node-package-template",
   "bugs": "https://github.com/harrysolovay/node-package-template/issues",
