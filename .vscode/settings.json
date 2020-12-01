@@ -32,11 +32,5 @@
   },
   "deno.enable": false,
   "editor.tabSize": 2,
-  "editor.formatOnSave": true,
-  "files.exclude": {
-    "**/node_modules": true
-  },
-  "files.watcherExclude": {
-    "**/node_modules": true
-  }
+  "editor.formatOnSave": true
 }
