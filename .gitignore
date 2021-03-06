@@ -1,11 +1,12 @@
 /*
+!.husky
 !.github
 !.prettierrc
 !.vscode
 !CHANGELOG.md
 !CODE_OF_CONDUCT.md
 !CONTRIBUTING.md
-!docs
+!jest.config.ts
 !example
 !LICENSE
 !package.json

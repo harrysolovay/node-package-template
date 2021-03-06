@@ -30,6 +30,18 @@
     "editor.suggest.showReferences": true,
     "editor.wordWrap": "on"
   },
+  "[yaml]": {
+    "editor.autoIndent": "full",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.tabSize": 2
+  },
   "deno.enable": false,
   "editor.tabSize": 2,
   "editor.formatOnSave": true
