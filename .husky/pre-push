@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npm run rm-pkgs-and-locks && npm i && npm run check && npm run test --bail
+npm run rm-pkgs && npm i && npm run check && npm run test --bail
