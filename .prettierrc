@@ -2,7 +2,7 @@
   "arrowParens": "always",
   "bracketSpacing": false,
   "embeddedLanguageFormatting": "auto",
-  "printWidth": 140,
+  "printWidth": 999,
   "proseWrap": "never",
   "semi": true,
   "singleQuote": false,
