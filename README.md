@@ -8,30 +8,49 @@ The **`package-name` Lorem ipsum dolor sit amet, consectetur adipiscing elit, se
 
 ## Installation
 
-**Deno** users can reference the GitHub source directly (make sure to specify the version).
+**Node** users can install with [npm](https://www.npmjs.com/package/node-package-template).
+
+```sh
+npm install node-package-template
+```
+
+> `node-package-template` is packaged in both ESModule & CommonJS formats, with accompanying type definitions.
+
+**Deno** users can import from either the [deno.land/x](https://deno.land/x) cache or the [nest.land](https://nest.land) registry (an [Arweave](https://www.arweave.org/)-backed JavaScript registry).
+
+```ts
+import * as nodePackageTemplate from "https://deno.land/x/node-package-template@<x.x.x>/mod.ts";
+```
+
+> Specify the latest version in the place of `<x.x.x>`.
+
+... or via an import map:
 
 `import_map.json`
 
 ```json
 {
   "imports": {
-    "constructor-chain": "https://github.com/harrysolovay/constructor-chain/blob/v[x.x.x]/src/index.ts"
+    "node-package-template": "https://deno.land/x/node-package-template@<x.x.x>/mod.ts"
   }
 }
 ```
 
-**Node** users can install with [npm](https://www.npmjs.com/package/constructor-chain).
+## Resources
 
-```sh
-npm install constructor-chain
-```
+<!-- TODO: YouTube series -->
 
-> `constructor-chain` is packaged in both ESM & CJS formats, alongside its type definitions.
+- [Guide &rarr;](docs/guide.md)<br />Expanded introduction, conceptual overview and general usage instructions.
+- [Contributing &rarr;](CONTRIBUTING.md)<br />Details about contributing to the Solly and its community.
+- [API Reference &rarr;](docs/reference.md)<br />A generated API reference, based on type signatures and in-source comments.
+- [Governance &rarr;](docs/governance.md)<br />Meta information related to this package, such as governance and ideological boundaries.
 
-## Show Me the Code!
+## Examples
+
+### First Example
 
 ```ts
-import {Chainable} from "constructor-chain";
+import {Chainable} from "node-package-template";
 
 const A = Chainable(
   class {
@@ -45,7 +64,11 @@ new A(); // instance of `A`, which is extended from the anonymous class
 const B = A.next({
   b: "chainables",
 } as const);
+```
 
+### Second Example
+
+```ts
 B.a; // type `"hello"`
 B.b; // type `"chainables"`
 new B(); // instance of `B` (subtype of `A`)
@@ -61,12 +84,6 @@ C.staticsToString(); // `Hello chainables!`
 new C(); // instance of `C` (subtype of `B`)
 ```
 
-## Resources
-
-- [Guide &rarr;](docs/guide.md)<br />Expanded introduction, conceptual overview and general usage instructions.
-- [API Reference &rarr;](docs/reference.md)<br />A generated API reference, based on type signatures and in-source comments.
-- [Project Governance &rarr;](docs/governance.md)<br />Meta information related to the package-name project.
-
 ## Motivation
 
 > You are now able to write WebAssembly, without learning a new language, and harness all these benefits WebAssembly might offer you. I think that is kind of powerful. [...] It [AssemblyScript] is absolutely usable, and very enjoyable! - Surma, [WebAssembly for Web Developers (Google I/O ’19)](https://youtu.be/njt-Qzw0mVY) (May 8th, 2019)
@@ -75,6 +92,19 @@ new C(); // instance of `C` (subtype of `B`)
 
 > JavaScript's heyday as the only browser language is over, but most web developers are used to writing JavaScript, and learning a new syntax just to get access to WebAssembly is not (always) ideal. If only there was something in to bridge the gap… – Jani Tarvainen, [TypeScript is the bridge between JavaScript and WebAssembly](https://malloc.fi/typescript-bridge-javascript-webassembly) (Feb 20, 2018)
 
-### License
+## Performance (TODO)
+
+While **Solly is the only library to offer streaming parsing** (a fundamentally-different use case), its synchronous parsing is [benchmarked](./bench/readme.txt) relative to alternatives as follows:
+
+|                                                                                         | ops/sec          | samples run |
+| :-------------------------------------------------------------------------------------- | :--------------- | :---------- |
+| **Solly**                                                                               | **3000 ops/sec** | **6000**    |
+| [solidity-parser/parser](https://github.com/solidity-parser/parser)                     | 900 ops/sec      | 1920        |
+| [ConsenSys/python-solidity-parser](https://github.com/ConsenSys/python-solidity-parser) | 600 ops/sec      | 3048        |
+| [vega-bond/solidity-parser-antlr](vega-bond/solidity-parser-antlr)                      | 300 ops/sec      | 4224        |
+| [sambacha/solidity-pegjs-parser](https://github.com/sambacha/solidity-pegjs-parser)     | 150 ops/sec      | 896         |
+| [sambacha/solidity-ts-parser](https://github.com/sambacha/solidity-ts-parser)           | 300 ops/sec      | 613         |
+
+## License
 
 This library is licensed under [the Apache 2.0 License](LICENSE).
