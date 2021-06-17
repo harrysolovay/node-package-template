@@ -1,0 +1,14 @@
+{
+  "entryPoints": ["src/index.ts"],
+  "exclude": ["**/test.*", "example/**"],
+  "excludeNotDocumented": true,
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "gitRemote": "https://github.com/harrysolovay/node-package-template.git",
+  "hideGenerator": true,
+  "listInvalidSymbolLinks": false,
+  "name": "Node Package Template Reference",
+  "out": "docs/reference",
+  "plugin": ["typedoc-plugin-markdown"],
+  "readme": "README.md"
+}

@@ -43,7 +43,7 @@ import * as nodePackageTemplate from "https://deno.land/x/node-package-template@
 - [Guide &rarr;](docs/guide.md)<br />Expanded introduction, conceptual overview and general usage instructions.
 - [Contributing &rarr;](CONTRIBUTING.md)<br />Details about contributing to the Solly and its community.
 - [API Reference &rarr;](docs/reference.md)<br />A generated API reference, based on type signatures and in-source comments.
-- [Governance &rarr;](docs/governance.md)<br />Meta information related to this package, such as governance and ideological boundaries.
+- [Governance &rarr;](GOVERNANCE.md)<br />Meta information related to this package, such as governance and ideological boundaries.
 
 ## Examples
 
