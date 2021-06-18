@@ -42,7 +42,7 @@
     "test": "jest",
     "build": "tsc & tsc -P tsconfig.esm.json",
     "clean": "rm -rf cjs esm",
-    "format": "prettier --write . --ignore=node_modules",
+    "format": "prettier --write . --ignore-path=node_modules/**",
     "rm-pkgs": "rm -rf node_modules",
     "rm-pkgs-and-lock": "rm -rf node_modules package-lock.json",
     "update-deps": "npm run rm-pkgs-and-lock && ncu -u && npm i",
