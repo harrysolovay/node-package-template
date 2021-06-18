@@ -6,11 +6,11 @@
   "types": "esm/index.d.ts",
   "module": "esm/index.js",
   "main": "cjs/index.js",
-  "sideEffects": false,
   "private": false,
   "publishConfig": {
     "access": "public"
   },
+  "sideEffects": false,
   "files": [
     "cjs",
     "esm"
