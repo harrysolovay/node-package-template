@@ -2,6 +2,8 @@
   "arrowParens": "always",
   "bracketSpacing": false,
   "embeddedLanguageFormatting": "auto",
+  "importOrder": ["^@/(.*)$", "^[./]"],
+  "importOrderSeparation": true,
   "printWidth": 999,
   "proseWrap": "never",
   "semi": true,
