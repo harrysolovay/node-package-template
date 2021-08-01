@@ -2,24 +2,24 @@
 
 ## How do I... <a name="toc"></a>
 
-- [Use This Guide](#introduction)?
-- Ask or Say Something? 🤔🐛😱
-  - [Request Support](#request-support)
-  - [Report an Error or Bug](#report-an-error-or-bug)
-  - [Request a Feature](#request-a-feature)
-- Make Something? 🤓👩🏽‍💻📜🍳
-  - [Project Setup](#project-setup)
-  - [Contribute Documentation](#contribute-documentation)
-  - [Contribute Code](#contribute-code)
-- Manage Something ✅🙆🏼💃👔
-  - [Provide Support on Issues](#provide-support-on-issues)
-  - [Label Issues](#label-issues)
-  - [Clean Up Issues and PRs](#clean-up-issues-and-prs)
-  - [Review Pull Requests](#review-pull-requests)
-  - [Merge Pull Requests](#merge-pull-requests)
-  - [Tag a Release](#tag-a-release)
-  - [Join the Project Team](#join-the-project-team)
-- Add a Guide Like This One [To My Project](#attribution)? 🤖😻👻
+-   [Use This Guide](#introduction)?
+-   Ask or Say Something? 🤔🐛😱
+    -   [Request Support](#request-support)
+    -   [Report an Error or Bug](#report-an-error-or-bug)
+    -   [Request a Feature](#request-a-feature)
+-   Make Something? 🤓👩🏽‍💻📜🍳
+    -   [Project Setup](#project-setup)
+    -   [Contribute Documentation](#contribute-documentation)
+    -   [Contribute Code](#contribute-code)
+-   Manage Something ✅🙆🏼💃👔
+    -   [Provide Support on Issues](#provide-support-on-issues)
+    -   [Label Issues](#label-issues)
+    -   [Clean Up Issues and PRs](#clean-up-issues-and-prs)
+    -   [Review Pull Requests](#review-pull-requests)
+    -   [Merge Pull Requests](#merge-pull-requests)
+    -   [Tag a Release](#tag-a-release)
+    -   [Join the Project Team](#join-the-project-team)
+-   Add a Guide Like This One [To My Project](#attribution)? 🤖😻👻
 
 ## Introduction
 
@@ -33,45 +33,45 @@ The [Project Team](#join-the-project-team) looks forward to your contributions. 
 
 If you have a question about this project, how to use it, or just need clarification about something:
 
-- Open an Issue at https://github.com/harrysolovay/package-name/issues
-- Provide as much context as you can about what you're running into.
-- Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant. If not, please be ready to provide that information if maintainers ask for it.
+-   Open an Issue at https://github.com/harrysolovay/package-name/issues
+-   Provide as much context as you can about what you're running into.
+-   Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant. If not, please be ready to provide that information if maintainers ask for it.
 
 Once it's filed:
 
-- The project team will [label the issue](#label-issues).
-- Someone will **try** (we're only human) to respond soon.
-- If you or the maintainers don't respond to an issue for 30 days, the [issue will be closed](#clean-up-issues-and-prs). If you want to come back to it, reply (once, please), and we'll reopen the existing issue. Please avoid filing new issues as extensions of ones you've already filed.
+-   The project team will [label the issue](#label-issues).
+-   Someone will **try** (we're only human) to respond soon.
+-   If you or the maintainers don't respond to an issue for 30 days, the [issue will be closed](#clean-up-issues-and-prs). If you want to come back to it, reply (once, please), and we'll reopen the existing issue. Please avoid filing new issues as extensions of ones you've already filed.
 
 ## Report an Error or Bug
 
 If you run into an error or bug with the project:
 
-- Open an Issue at https://github.com/harrysolovay/package-name/issues
-- Include _reproduction steps_ that someone else can follow to recreate the bug or error on their own.
-- Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant. If not, please be ready to provide that information if maintainers ask for it.
+-   Open an Issue at https://github.com/harrysolovay/package-name/issues
+-   Include _reproduction steps_ that someone else can follow to recreate the bug or error on their own.
+-   Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant. If not, please be ready to provide that information if maintainers ask for it.
 
 Once it's filed:
 
-- The project team will [label the issue](#label-issues).
-- A team member will **try** (again, we're only human) to reproduce the issue with your provided steps. If there are no repro steps or no obvious way to reproduce the issue, the team will ask you for those steps and mark the issue as `needs-repro`. Bugs with the `needs-repro` tag will not be addressed until they are reproduced.
-- If the team is able to reproduce the issue, it will be marked `needs-fix`, as well as possibly other tags (such as `critical`), and the issue will be left to be [implemented by someone](#contribute-code).
-- If you or the maintainers don't respond to an issue for 30 days, the [issue will be closed](#clean-up-issues-and-prs). If you want to come back to it, reply (once, please), and we'll reopen the existing issue. Please avoid filing new issues as extensions of one you already made.
-- `critical` issues may be left open, depending on perceived immediacy and severity, even past the stale-bot-imposed 30 days.
+-   The project team will [label the issue](#label-issues).
+-   A team member will **try** (again, we're only human) to reproduce the issue with your provided steps. If there are no repro steps or no obvious way to reproduce the issue, the team will ask you for those steps and mark the issue as `needs-repro`. Bugs with the `needs-repro` tag will not be addressed until they are reproduced.
+-   If the team is able to reproduce the issue, it will be marked `needs-fix`, as well as possibly other tags (such as `critical`), and the issue will be left to be [implemented by someone](#contribute-code).
+-   If you or the maintainers don't respond to an issue for 30 days, the [issue will be closed](#clean-up-issues-and-prs). If you want to come back to it, reply (once, please), and we'll reopen the existing issue. Please avoid filing new issues as extensions of one you already made.
+-   `critical` issues may be left open, depending on perceived immediacy and severity, even past the stale-bot-imposed 30 days.
 
 ## Request a Feature
 
 If the project doesn't do something you need or want it to do:
 
-- Open an Issue at https://github.com/harrysolovay/package-name/issues
-- Provide as much context as you can about what you're running into.
-- Please try and be clear about why existing features and alternatives would not work for you.
+-   Open an Issue at https://github.com/harrysolovay/package-name/issues
+-   Provide as much context as you can about what you're running into.
+-   Please try and be clear about why existing features and alternatives would not work for you.
 
 Once it's filed:
 
-- The project team will [label the issue](#label-issues).
-- The project team will evaluate the feature request, possibly asking you more questions to understand its purpose and any relevant requirements. If the issue is closed, the team will convey their reasoning and suggest an alternative path forward.
-- If the feature request is accepted, it will be marked for implementation with `feature-accepted`, which can then be done by either by a core team member or by anyone in the community who wants to [contribute code](#contribute-code).
+-   The project team will [label the issue](#label-issues).
+-   The project team will evaluate the feature request, possibly asking you more questions to understand its purpose and any relevant requirements. If the issue is closed, the team will convey their reasoning and suggest an alternative path forward.
+-   If the feature request is accepted, it will be marked for implementation with `feature-accepted`, which can then be done by either by a core team member or by anyone in the community who wants to [contribute code](#contribute-code).
 
 Note: The team is unlikely to be able to accept every single feature request that is filed. Please understand if they need to say no.
 
@@ -83,14 +83,14 @@ If this seems like a lot or you aren't able to do all this setup, you might also
 
 If you want to go the usual route and run the project locally, though:
 
-- [Install Node.js](https://nodejs.org/en/download/)
-- [Fork the project](https://guides.github.com/activities/forking/#fork)
+-   [Install Node.js](https://nodejs.org/en/download/)
+-   [Fork the project](https://guides.github.com/activities/forking/#fork)
 
 Then in your terminal:
 
-- `cd path/to/your/clone`
-- `npm install`
-- `npm test`
+-   `cd path/to/your/clone`
+-   `npm install`
+-   `npm test`
 
 And you should be ready to go!
 
@@ -102,20 +102,20 @@ Documentation contributions of any size are welcome! Feel free to file a PR even
 
 To contribute documentation:
 
-- [Set up the project](#project-setup).
-- Edit or add any relevant documentation.
-- Make sure your changes are formatted correctly and consistently with the rest of the documentation.
-- Re-read what you wrote, and run a spellchecker on it to make sure you didn't miss anything.
-- Write clear, concise commit message(s) using [conventional-changelog format](https://github.com/conventional-changelog/conventional-changelog-angular/blob/master/convention.md). Documentation commits should use `docs(<component>): <message>`.
-- Go to https://github.com/harrysolovay/package-name/pulls and open a new pull request with your changes.
-- If your PR is connected to an open issue, add a line in your PR's description that says `Fixes: #123`, where `#123` is the number of the issue you're fixing.
+-   [Set up the project](#project-setup).
+-   Edit or add any relevant documentation.
+-   Make sure your changes are formatted correctly and consistently with the rest of the documentation.
+-   Re-read what you wrote, and run a spellchecker on it to make sure you didn't miss anything.
+-   Write clear, concise commit message(s) using [conventional-changelog format](https://github.com/conventional-changelog/conventional-changelog-angular/blob/master/convention.md). Documentation commits should use `docs(<component>): <message>`.
+-   Go to https://github.com/harrysolovay/package-name/pulls and open a new pull request with your changes.
+-   If your PR is connected to an open issue, add a line in your PR's description that says `Fixes: #123`, where `#123` is the number of the issue you're fixing.
 
 Once you've filed the PR:
 
-- One or more maintainers will use GitHub's review feature to review your PR.
-- If the maintainer asks for any changes, edit your changes, push, and ask for another review.
-- If the maintainer decides to pass on your PR, they will thank you for the contribution and explain why they won't be accepting the changes. That's ok! We still really appreciate you taking the time to do it, and we don't take that lightly. 💚
-- If your PR gets accepted, it will be marked as such, and merged into the `latest` branch soon after. Your contribution will be distributed to the masses next time the maintainers [tag a release](#tag-a-release)
+-   One or more maintainers will use GitHub's review feature to review your PR.
+-   If the maintainer asks for any changes, edit your changes, push, and ask for another review.
+-   If the maintainer decides to pass on your PR, they will thank you for the contribution and explain why they won't be accepting the changes. That's ok! We still really appreciate you taking the time to do it, and we don't take that lightly. 💚
+-   If your PR gets accepted, it will be marked as such, and merged into the `latest` branch soon after. Your contribution will be distributed to the masses next time the maintainers [tag a release](#tag-a-release)
 
 ## Contribute Code
 
@@ -127,22 +127,22 @@ The main difference between code contributions and documentation contributions i
 
 To contribute code:
 
-- [Set up the project](#project-setup).
-- Make any necessary changes to the source code.
-- Include any [additional documentation](#contribute-documentation) the changes might need.
-- Write tests that verify that your contribution works as expected.
-- Write clear, concise commit message(s) using [conventional-changelog format](https://github.com/conventional-changelog/conventional-changelog-angular/blob/master/convention.md).
-- Dependency updates, additions, or removals must be in individual commits, and the message must use the format: `<prefix>(deps): PKG@VERSION`, where `<prefix>` is any of the usual `conventional-changelog` prefixes, at your discretion.
-- Go to https://github.com/harrysolovay/package-name/pulls and open a new pull request with your changes.
-- If your PR is connected to an open issue, add a line in your PR's description that says `Fixes: #123`, where `#123` is the number of the issue you're fixing.
+-   [Set up the project](#project-setup).
+-   Make any necessary changes to the source code.
+-   Include any [additional documentation](#contribute-documentation) the changes might need.
+-   Write tests that verify that your contribution works as expected.
+-   Write clear, concise commit message(s) using [conventional-changelog format](https://github.com/conventional-changelog/conventional-changelog-angular/blob/master/convention.md).
+-   Dependency updates, additions, or removals must be in individual commits, and the message must use the format: `<prefix>(deps): PKG@VERSION`, where `<prefix>` is any of the usual `conventional-changelog` prefixes, at your discretion.
+-   Go to https://github.com/harrysolovay/package-name/pulls and open a new pull request with your changes.
+-   If your PR is connected to an open issue, add a line in your PR's description that says `Fixes: #123`, where `#123` is the number of the issue you're fixing.
 
 Once you've filed the PR:
 
-- Barring special circumstances, maintainers will not review PRs until all checks pass (Travis, AppVeyor, etc).
-- One or more maintainers will use GitHub's review feature to review your PR.
-- If the maintainer asks for any changes, edit your changes, push, and ask for another review. Additional tags (such as `needs-tests`) will be added depending on the review.
-- If the maintainer decides to pass on your PR, they will thank you for the contribution and explain why they won't be accepting the changes. That's ok! We still really appreciate you taking the time to do it, and we don't take that lightly. 💚
-- If your PR gets accepted, it will be marked as such, and merged into the `latest` branch soon after. Your contribution will be distributed to the masses next time the maintainers [tag a release](#tag-a-release)
+-   Barring special circumstances, maintainers will not review PRs until all checks pass (Travis, AppVeyor, etc).
+-   One or more maintainers will use GitHub's review feature to review your PR.
+-   If the maintainer asks for any changes, edit your changes, push, and ask for another review. Additional tags (such as `needs-tests`) will be added depending on the review.
+-   If the maintainer decides to pass on your PR, they will thank you for the contribution and explain why they won't be accepting the changes. That's ok! We still really appreciate you taking the time to do it, and we don't take that lightly. 💚
+-   If your PR gets accepted, it will be marked as such, and merged into the `latest` branch soon after. Your contribution will be distributed to the masses next time the maintainers [tag a release](#tag-a-release)
 
 ## Provide Support on Issues
 
@@ -154,16 +154,16 @@ Sometimes, the `support` label will be added to things that turn out to actually
 
 In order to help other folks out with their questions:
 
-- Go to the issue tracker and [filter open issues by the `support` label](https://github.com/harrysolovay/package-name/issues?q=is%3Aopen+is%3Aissue+label%3Asupport).
-- Read through the list until you find something that you're familiar enough with to give an answer to.
-- Respond to the issue with whatever details are needed to clarify the question, or get more details about what's going on.
-- Once the discussion wraps up and things are clarified, either close the issue, or ask the original issue filer (or a maintainer) to close it for you.
+-   Go to the issue tracker and [filter open issues by the `support` label](https://github.com/harrysolovay/package-name/issues?q=is%3Aopen+is%3Aissue+label%3Asupport).
+-   Read through the list until you find something that you're familiar enough with to give an answer to.
+-   Respond to the issue with whatever details are needed to clarify the question, or get more details about what's going on.
+-   Once the discussion wraps up and things are clarified, either close the issue, or ask the original issue filer (or a maintainer) to close it for you.
 
 Some notes on picking up support issues:
 
-- Avoid responding to issues you don't know you can answer accurately.
-- As much as possible, try to refer to past issues with accepted answers. Link to them from your replies with the `#123` format.
-- Be kind and patient with users -- often, folks who have run into confusing things might be upset or impatient. This is ok. Try to understand where they're coming from, and if you're too uncomfortable with the tone, feel free to stay away or withdraw from the issue. (note: if the user is outright hostile or is violating the CoC, [refer to the Code of Conduct](CODE_OF_CONDUCT.md) to resolve the conflict).
+-   Avoid responding to issues you don't know you can answer accurately.
+-   As much as possible, try to refer to past issues with accepted answers. Link to them from your replies with the `#123` format.
+-   Be kind and patient with users -- often, folks who have run into confusing things might be upset or impatient. This is ok. Try to understand where they're coming from, and if you're too uncomfortable with the tone, feel free to stay away or withdraw from the issue. (note: if the user is outright hostile or is violating the CoC, [refer to the Code of Conduct](CODE_OF_CONDUCT.md) to resolve the conflict).
 
 ## Label Issues
 
@@ -199,14 +199,14 @@ In these cases, they should be closed until they're brought up again or the inte
 
 To clean up issues and PRs:
 
-- Search the issue tracker for issues or PRs, and add the term `updated:<=YYYY-MM-DD`, where the date is 30 days before today.
-- Go through each issue _from oldest to newest_, and close them if **all of the following are true**:
-  - not opened by a maintainer
-  - not marked as `critical`
-  - not marked as `starter` or `help wanted` (these might stick around for a while, in general, as they're intended to be available)
-  - no explicit messages in the comments asking for it to be left open
-  - does not belong to a milestone
-- Leave a message when closing saying "Cleaning up stale issue. Please reopen or ping us if and when you're ready to resume this. See https://github.com/harrysolovay/package-name/blob/latest/CONTRIBUTING.md#clean-up-issues-and-prs for more details."
+-   Search the issue tracker for issues or PRs, and add the term `updated:<=YYYY-MM-DD`, where the date is 30 days before today.
+-   Go through each issue _from oldest to newest_, and close them if **all of the following are true**:
+    -   not opened by a maintainer
+    -   not marked as `critical`
+    -   not marked as `starter` or `help wanted` (these might stick around for a while, in general, as they're intended to be available)
+    -   no explicit messages in the comments asking for it to be left open
+    -   does not belong to a milestone
+-   Leave a message when closing saying "Cleaning up stale issue. Please reopen or ping us if and when you're ready to resume this. See https://github.com/harrysolovay/package-name/blob/latest/CONTRIBUTING.md#clean-up-issues-and-prs for more details."
 
 ## Review Pull Requests
 
@@ -218,10 +218,10 @@ PR reviews use [GitHub's own review feature](https://help.github.com/articles/ab
 
 Some notes:
 
-- You may ask for minor changes ("nitpicks"), but consider whether they are really blockers to merging: try to err on the side of "approve, with comments".
-- _ALL PULL REQUESTS_ should be covered by a test: either by a previously-failing test, an existing test that covers the entire functionality of the submitted code, or new tests to verify any new/changed behavior. All tests must also pass and follow established conventions. Test coverage should not drop, unless the specific case is considered reasonable by maintainers.
-- Please make sure you're familiar with the code or documentation being updated, unless it's a minor change (spellchecking, minor formatting, etc). You may @mention another project member who you think is better suited for the review, but still provide a non-approving review of your own.
-- Be extra kind: people who submit code/doc contributions are putting themselves in a pretty vulnerable position, and have put time and care into what they've done (even if that's not obvious to you!) -- always respond with respect, be understanding, but don't feel like you need to sacrifice your standards for their sake, either. Just don't be a jerk about it?
+-   You may ask for minor changes ("nitpicks"), but consider whether they are really blockers to merging: try to err on the side of "approve, with comments".
+-   _ALL PULL REQUESTS_ should be covered by a test: either by a previously-failing test, an existing test that covers the entire functionality of the submitted code, or new tests to verify any new/changed behavior. All tests must also pass and follow established conventions. Test coverage should not drop, unless the specific case is considered reasonable by maintainers.
+-   Please make sure you're familiar with the code or documentation being updated, unless it's a minor change (spellchecking, minor formatting, etc). You may @mention another project member who you think is better suited for the review, but still provide a non-approving review of your own.
+-   Be extra kind: people who submit code/doc contributions are putting themselves in a pretty vulnerable position, and have put time and care into what they've done (even if that's not obvious to you!) -- always respond with respect, be understanding, but don't feel like you need to sacrifice your standards for their sake, either. Just don't be a jerk about it?
 
 ## Merge Pull Requests
 

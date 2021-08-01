@@ -1,11 +1,11 @@
 {
-  "deno.enable": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.tabSize": 2,
-  "markdownlint.config": {
-    "no-blanks-blockquote": false,
-    "fenced-code-language": false,
-    "no-inline-html": false
-  }
+    "deno.enable": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "markdownlint.config": {
+        "no-blanks-blockquote": false,
+        "fenced-code-language": false,
+        "no-inline-html": false
+    }
 }

@@ -30,9 +30,9 @@ import * as nodePackageTemplate from "https://deno.land/x/node-package-template@
 
 ```json
 {
-  "imports": {
-    "node-package-template": "https://deno.land/x/node-package-template@<x.x.x>/mod.ts"
-  }
+    "imports": {
+        "node-package-template": "https://deno.land/x/node-package-template@<x.x.x>/mod.ts"
+    }
 }
 ```
 
@@ -40,10 +40,10 @@ import * as nodePackageTemplate from "https://deno.land/x/node-package-template@
 
 <!-- TODO: YouTube series -->
 
-- [Guide &rarr;](docs/guide.md)<br />Expanded introduction, conceptual overview and general usage instructions.
-- [Contributing &rarr;](CONTRIBUTING.md)<br />Details about contributing to the Solly and its community.
-- [API Reference &rarr;](docs/reference.md)<br />A generated API reference, based on type signatures and in-source comments.
-- [Governance &rarr;](GOVERNANCE.md)<br />Meta information related to this package, such as governance and ideological boundaries.
+-   [Guide &rarr;](docs/guide.md)<br />Expanded introduction, conceptual overview and general usage instructions.
+-   [Contributing &rarr;](CONTRIBUTING.md)<br />Details about contributing to the Solly and its community.
+-   [API Reference &rarr;](docs/reference.md)<br />A generated API reference, based on type signatures and in-source comments.
+-   [Governance &rarr;](GOVERNANCE.md)<br />Meta information related to this package, such as governance and ideological boundaries.
 
 ## Examples
 
@@ -51,19 +51,17 @@ import * as nodePackageTemplate from "https://deno.land/x/node-package-template@
 
 ```ts
 import {Chainable} from "node-package-template";
-
 const A = Chainable(
-  class {
-    static readonly a = "Hello";
-  },
+    class {
+        static readonly a = "Hello";
+    },
 );
+A.a; e `"hello"`
+new A
+new A(); tance of `A`, which is extended from the anonymous class
 
-A.a; // type `"hello"`
-new A(); // instance of `A`, which is extended from the anonymous class
-
-const B = A.next({
-  b: "chainables",
-} as const);
+cons
+const B = A.next({b: "chainables"} as const);
 ```
 
 ### Second Example
@@ -74,10 +72,10 @@ B.b; // type `"chainables"`
 new B(); // instance of `B` (subtype of `A`)
 
 const C = B.next({
-  staticsToString() {
-    // we can reference inherited statics with `this`
-    return `${this.a} ${this.b}!`;
-  },
+    staticsToString() {
+        // we can reference inherited statics with `this`
+        return `${this.a} ${this.b}!`;
+    },
 });
 
 C.staticsToString(); // `Hello chainables!`
