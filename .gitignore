@@ -3,5 +3,4 @@ docs/reference
 esm
 .DS_Store
 node_modules
-package-lock.json
 profile.log
