@@ -1,9 +1,0 @@
----
-blank_issues_enabled: false
-contact_links:
-    - about: "Ask and answer usage questions on Stack Overflow."
-      name: Question
-      url: "https://stackoverflow.com/questions/tagged/package-name"
-    - about: "Check the FAQ before filing new issues."
-      name: "FAQ"
-      url: "https://github.com/harrysolovay/package-name/README.md#faq"
