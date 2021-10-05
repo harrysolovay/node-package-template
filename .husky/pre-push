@@ -1,4 +1,0 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-npm run rm-pkgs && npm i && npm run check && npm run test --bail
