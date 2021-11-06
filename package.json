@@ -4,6 +4,7 @@
     "version": "0.0.0",
     "license": "Apache-2.0",
     "types": "esm/index.d.ts",
+    "module": "esm/index.js",
     "main": "cjs/index.js",
     "private": false,
     "publishConfig": {
