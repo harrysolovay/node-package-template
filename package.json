@@ -49,6 +49,6 @@
         "check": "tsc --noEmit",
         "release": "standard-version",
         "release-next": "npm run release -- --prerelease next",
-        "example": "SWC_NODE_PROJECT=.swcrc.json node -r @swc-node/register example"
+        "example": "SWC_NODE_PROJECT= node -r @swc-node/register example"
     }
 }
